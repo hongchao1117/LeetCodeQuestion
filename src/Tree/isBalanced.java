@@ -3,17 +3,18 @@ package Tree;
 import Tree.test.Node;
 
 public class isBalanced {
-    public boolean isBalance(Node root) {
-        return depth(root) == -1;
+    public boolean isBalanced(TreeNode root) {
+        if (root==null) return true;
+        return Math.abs(depth(root.left)-depth(root.right))<=1  && isBalanced(root.left) &&isBalanced(root.right);
     }
 
-    private int depth(Node root) {
+    private int depth(TreeNode root) {
         if (root == null)
             return 0;
-//        int left = depth(root.left)+1;
-//        int right = depth(root.right)+1;
-//        return  Math.abs(left-right)>1?0:-1;
-        return 0;
+        int left = depth(root.left)+1;
+        int right = depth(root.right)+1;
+        return  Math.max(left,right);
+
     }
 
 
