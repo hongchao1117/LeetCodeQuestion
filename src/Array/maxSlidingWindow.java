@@ -1,35 +1,37 @@
 package Array;
 
 import java.util.Arrays;
+import java.util.Deque;
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class maxSlidingWindow {
     public static void main(String[] args) {
         int[] num = {1,3,-1,-3,5,3,6,7};
         System.out.println(Arrays.toString(maxSlidingWindow(num,3)));
     }
-    public static int[] maxSlidingWindow(int[] num, int k) {
-        /**int len = num.length;
+    public static int[] maxSlidingWindow(int[] nums, int k) {
+        /**int len = nums.length;
         if (len*k==0)
             return new int[0];
         int[] arr = new int[len-k+1];
         for (int i = 0; i < len-k+1; i++) {
             int max = Integer.MIN_VALUE;
             for (int j = i; j < k+i; j++) {
-                max = Integer.max(num[j],max);
+                max = Integer.max(nums[j],max);
                 arr[i] = max;
             }
         }
         return arr;*/
-        if (num==null || num.length<2)
-            return num;
+        /**if (nums==null || nums.length<2)
+            return nums;
         //双向队列 保存当前窗口最大值的数组未知，保证队列中数组位置的数按从大到小排序
         LinkedList<Integer> list = new LinkedList<>();
         //结果数组
-        int[] res = new int[num.length-k+1];
-        for (int i = 0; i < num.length; i++) {
+        int[] res = new int[nums.length-k+1];
+        for (int i = 0; i < nums.length; i++) {
             //保证从大到小 如果前面数小 弹出
-            while (!list.isEmpty() && num[list.peekLast()]<=num[i]){
+            while (!list.isEmpty() && nums[list.peekLast()]<=nums[i]){
                 list.pollLast();
             }
             //添加当前值对应的数组下标
@@ -40,8 +42,28 @@ public class maxSlidingWindow {
             }
             //窗口长度为k时 在保存当前窗口中最大值
             if (i-k+1>=0){
-                res[i-k+1] = num[list.peek()];
+                res[i-k+1] = nums[list.peek()];
             }
+        }
+        return res;
+
+    }*/
+        if(nums.length == 0 || k == 0) return new int[0];
+        Deque<Integer> deque = new LinkedList<>();
+        int[] res = new int[nums.length - k + 1];
+        for(int i = 0; i < k; i++) { // 未形成窗口
+            while(!deque.isEmpty() && deque.peekLast() < nums[i])
+                deque.removeLast();
+            deque.addLast(nums[i]);
+        }
+        res[0] = deque.peekFirst();
+        for(int i = k; i < nums.length; i++) { // 形成窗口后
+            if(deque.peekFirst() == nums[i - k])
+                deque.removeFirst();
+            while(!deque.isEmpty() && deque.peekLast() < nums[i])
+                deque.removeLast();
+            deque.addLast(nums[i]);
+            res[i - k + 1] = deque.peekFirst();
         }
         return res;
 

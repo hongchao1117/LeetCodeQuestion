@@ -8,6 +8,18 @@ import java.util.Stack;
  */
 public class isValid {
     public boolean isValid(String s) {
+//        char[] chars = s.toCharArray();
+//        Stack<Character> stack = new Stack<>();
+//        for (int i = 0; i < chars.length; i++) {
+//            if (stack.isEmpty()){
+//                stack.push(chars[i]);
+//            }else if (isSym(stack.peek(),chars[i])){
+//                stack.pop();
+//            }else {
+//                stack.push(chars[i]);
+//            }
+//        }
+//        return stack.isEmpty();
         char[] chars = s.toCharArray();
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < chars.length; i++) {
@@ -15,7 +27,7 @@ public class isValid {
                 stack.push(chars[i]);
             }else if (isSym(stack.peek(),chars[i])){
                 stack.pop();
-            }else {
+            }else{
                 stack.push(chars[i]);
             }
         }

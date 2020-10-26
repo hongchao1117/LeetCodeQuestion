@@ -1,6 +1,5 @@
 package LinkedList;
 
-import java.lang.invoke.VarHandle;
 
 public class addTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

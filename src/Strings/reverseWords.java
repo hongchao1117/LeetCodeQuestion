@@ -12,9 +12,10 @@ public class reverseWords {
     public static  String reverseWords(String s) {
         String[] strings = s.trim().split(" ");
         ArrayList<String> list = new ArrayList<>();
-        for (String string:strings){
-            if (string.length()>0)
-                list.add(string);
+        for (int i = strings.length-1; i>=0; i--) {
+            if (strings[i].length()>0)
+                list.add(strings[i]);
+
         }
         return String.join(" ",list);
     }

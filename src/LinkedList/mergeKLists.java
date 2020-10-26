@@ -2,18 +2,14 @@ package LinkedList;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class mergeKLists {
     public ListNode mergeKLists(ListNode[] lists) {
-        if (lists.length==0 )   return null;
+        /**if (lists.length==0 )   return null;
         ListNode dummyNode = new ListNode(-1);
         ListNode cur = dummyNode;
-        PriorityQueue<ListNode> queue = new PriorityQueue<>(new Comparator<ListNode>() {
-            @Override
-            public int compare(ListNode o1, ListNode o2) {
-                return o1.val-o2.val;
-            }
-        });
+        Queue<ListNode> queue = new PriorityQueue<>(((o1, o2) -> o1.val-o2.val));
 
         for(ListNode list:lists){//添加排序后链表的各个头结点至优先队列
             if (list==null)
@@ -29,6 +25,24 @@ public class mergeKLists {
                 queue.add(next.next);//入队头结点之后的那个节点
             }
         }
-        return dummyNode.next;
+        return dummyNode.next;*/
+        if (lists.length == 0) return null;
+        ListNode res = null;
+        for (int i = 0; i < lists.length; i++) {
+            res = mergeTwoList(res,lists[i]);
+        }
+        return res;
+    }
+
+    private ListNode mergeTwoList(ListNode a, ListNode b) {
+        if (a==null) return b;
+        if (b==null) return a;
+        if (a.val<b.val){
+            a.next = mergeTwoList(a.next,b);
+            return a;
+        }else{
+            b.next = mergeTwoList(a,b.next);
+            return b;
+        }
     }
 }

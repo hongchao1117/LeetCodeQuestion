@@ -19,7 +19,7 @@ import java.util.Vector;
  */
 public class generateParenthesis {
     public List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<String>();
+        List<String> res = new ArrayList<>();
         generate(res,"",0,0,n);
         return res;
     }

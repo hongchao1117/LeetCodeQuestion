@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class copyRandomList {
     public Node copyRandomList(Node head) {
-        if (head==null || head.next==null &&head.random==null)
+        if (head==null)
             return head;
         /**
         //1.先复制next

@@ -3,7 +3,12 @@ package Strings;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
+/**
+ * 从字符串中找出一个最长的不包含重复字符的子字符串，
+ * 计算该最长子字符串的长度。
+ */
 public class lengthOfLongestSubstring {
     public static void main(String[] args) {
         String s = "abcabcbb";
@@ -26,13 +31,13 @@ public class lengthOfLongestSubstring {
                     max = i+j-1;
         }
         return max;*/
-        Map<Character,Integer> map = new HashMap<>();
-        for (int j = 0, i = 0; j < s.length(); j++) {
-            if (map.containsKey(s.charAt(j))) {
-                i = Math.max(map.get(s.charAt(j)), i);
+        Set<Character> set = new HashSet<>();
+        for (int l = 0,r = 0;r < s.length(); r++) {
+            while (set.contains(s.charAt(r))){
+                set.remove(s.charAt(l++));
             }
-            count = Math.max(count, j - i + 1);
-            map.put(s.charAt(j), j + 1);
+            set.add(s.charAt(r));
+            count = Math.max(set.size(),count);
         }
         return count;
     }
