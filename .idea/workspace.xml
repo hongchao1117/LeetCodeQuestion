@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/TwoSum_easy.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canJump.class" afterDir="false" />
@@ -160,57 +158,6 @@
       <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/TwoSum.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxValue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/TwoSum_easy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/constructArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/countDigitOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/findContinuousSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/findMedianSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/isStraight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/lastRemaining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/movingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/reversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/singleNum_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/singleNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathmatics/add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathmatics/nthUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mathmatics/sumNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/isMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/letterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/reverseLeftWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/strToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structure/MaxQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/LRUDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/ThreadUnsafeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/interfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/buildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/levelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/pathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/treeToDoublyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/maxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/maxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/maxValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/spiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/spiralOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/threeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/threeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/twoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/copyRandomList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/copyRandomList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/mergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/mergeKLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathmatics/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathmatics/reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/isValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/isValid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/lengthOfLongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/myAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/myAtoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -254,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="42" column="30" selection-start-line="26" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="462">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -293,11 +240,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeKLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="281">
+              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -560,7 +507,7 @@
       <workItem from="1603461792562" duration="698000" />
       <workItem from="1603531587666" duration="6760000" />
       <workItem from="1603618297032" duration="9674000" />
-      <workItem from="1603716644890" duration="3475000" />
+      <workItem from="1603716644890" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -569,17 +516,24 @@
       <option name="project" value="LOCAL" />
       <updated>1599577027816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
+      <created>1603720330227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603720330227</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61736000" />
+    <option name="totallyTimeSpent" value="61987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.57952976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -594,10 +548,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.47214076" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -613,9 +567,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改判断是否是 平衡树" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改判断是否是 平衡树" />
+    <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1602144435511">
@@ -921,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="30" selection-start-line="26" selection-start-column="8" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strings/isValid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -968,8 +942,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeKLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="281">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
