@@ -1,5 +1,7 @@
 package Stack;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class longestValidParentheses {
@@ -9,24 +11,21 @@ public class longestValidParentheses {
     }
 
     public static int longestValidParentheses(String s) {
-        if (s.length()==0 || s==null)   return 0;
-        char[] chars = s.toCharArray();
-        Stack<Character> stack = new Stack<>();
-        int count = 0;
-        for (int i = 0; i < chars.length; i++) {
-            if (stack.isEmpty()){
-                stack.push(chars[i]);
-            }else if (isCouple(stack.peek(),chars[i])){
+        int max = 0;
+        Deque<Integer> stack = new LinkedList<>();
+        stack.push(-1);
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
                 stack.pop();
-                count++;
-            }else
-                stack.push(chars[i]);
+                if (stack.isEmpty()) {
+                    stack.push(i);
+                } else {
+                    max = Math.max(max, i - stack.peek());
+                }
+            }
         }
-        return 2*count;
-
-    }
-
-    private static boolean isCouple(Character peek, char c) {
-        return (peek=='(' && c==')');
+        return max;
     }
 }

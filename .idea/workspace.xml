@@ -1,163 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/TwoSum_easy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canJump.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/constructArr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/countDigitOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findContinuousSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMedianSortedArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/isStraight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/lastRemaining.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxProfit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxsubArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/merge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/minSubArrayLen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/movingCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/partition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permute.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/removeDuplicates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/reversePairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchInsert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNum_II.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/solve.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/subsetsWithDup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/sumEvenAfterQueries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/thirdMax.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSumClosest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/twoSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/uncommonFromSentences.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/findContentChildrenTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/largestSumAfterKNegationsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/lastStoneWeightTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/minDeletionSize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/twoCitySchedCost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedHashMap/LRUCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/addTwoNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/copyRandomList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/deleteNode$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/deleteNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/detectCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/divideDoubleList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/divideDoubleList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/hasCycle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/insertionSortList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome_LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeTwoLists.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/oddEvenList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeElements$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeElements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reorderList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseBetween.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseList$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/swapPairs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/add.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/generate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/nthUglyNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/reverse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/sumNums.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/CollectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/Emp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/MapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/LinkedListSorting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/intersect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/largestPerimeterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/MinStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/StackTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/backspaceCompareTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/longestValidParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/nextGreaterElementTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/removeDuplicatesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/zifuchuanTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/FizzBuzz.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addBinary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/bytedanceInterview.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/checkRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/detectCapitalUse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/generateParenthesis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isInterleave.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isMatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isValid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/ladderLength.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLastWord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLongestSubstring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestCommonPrefix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestPalindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/myAtoi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseLeftWords.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseStr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/strStr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/strToInt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/wordBreak.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Structure/MaxQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/CountDownLatchDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/JavaPreTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/LRUDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/ThreadUnsafeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/ThreadUnsafeExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/exceptionDemo$exceptionInstance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/exceptionDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/interfaceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/test02.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/Codec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/FindKLevel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/averageOfLevels$TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/averageOfLevels.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/buildTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isBalanced.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSameTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSym.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isValidBST.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/largestValues.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/levelOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/mergeTrees.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/pathSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/preorderTraversal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/sumNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/JinZhiZhuanHuan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Palindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/PrimeNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/isPrime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/isReapte.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/treeToDoublyList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/TwoSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxValue.class" afterDir="false" />
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增LeetCode hot 100 + 剑指offer 的部分题目">
+      <change afterPath="$PROJECT_DIR$/src/GreedyAlo/canJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxsubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxsubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/longestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/longestValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/myAtoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/myAtoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/canJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/maxsubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/maxsubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/searchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/longestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/longestValidParentheses.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,70 +36,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dp/maxArea.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/maxsubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="19" selection-start-line="4" selection-start-column="8" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/threeSum.java">
+        <entry file="file://$PROJECT_DIR$/src/GreedyAlo/canJump.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="67" column="19" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strings/letterCombinations.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/merge_array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/groupAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="432">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strings/isValid.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/uniquePaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <element signature="e#167#208#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strings/generateParenthesis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="55" />
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -243,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeKLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state relative-caret-position="918">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -320,13 +174,27 @@
         <option value="$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java" />
         <option value="$PROJECT_DIR$/src/Strings/generateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/mergeKLists.java" />
+        <option value="$PROJECT_DIR$/src/Array/nextPermutation.java" />
+        <option value="$PROJECT_DIR$/src/Stack/longestValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/Array/search.java" />
+        <option value="$PROJECT_DIR$/src/Array/searchRange.java" />
+        <option value="$PROJECT_DIR$/src/Array/combinationSum.java" />
+        <option value="$PROJECT_DIR$/src/Array/permute.java" />
+        <option value="$PROJECT_DIR$/src/Array/rotate.java" />
+        <option value="$PROJECT_DIR$/src/Strings/groupAnagrams.java" />
+        <option value="$PROJECT_DIR$/src/Array/maxsubArray.java" />
+        <option value="$PROJECT_DIR$/src/Array/canJump.java" />
+        <option value="$PROJECT_DIR$/src/GreedyAlo/canJump.java" />
+        <option value="$PROJECT_DIR$/src/Array/merge_array.java" />
+        <option value="$PROJECT_DIR$/src/Array/uniquePaths.java" />
+        <option value="$PROJECT_DIR$/src/Array/groupAnagrams.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
@@ -353,14 +221,14 @@
               <item name="LeetCodeQuestion" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCodeQuestion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -390,13 +258,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.myAtoi">
-    <configuration name="constructArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.constructArr" />
+  <component name="RunManager" selected="Application.maxsubArray">
+    <configuration name="longestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.longestValidParentheses" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,25 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.findMedianSortedArrays" />
+    <configuration name="maxsubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.maxsubArray" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.maxProfit" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="GreedyAlo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,12 +298,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singleNum_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.singleNum_II" />
+    <configuration name="rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.rotate" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="GreedyAlo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="searchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.searchRange" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GreedyAlo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maxsubArray" />
+        <item itemvalue="Application.rotate" />
+        <item itemvalue="Application.searchRange" />
+        <item itemvalue="Application.longestValidParentheses" />
         <item itemvalue="Application.myAtoi" />
-        <item itemvalue="Application.findMedianSortedArrays" />
-        <item itemvalue="Application.constructArr" />
-        <item itemvalue="Application.maxProfit" />
-        <item itemvalue="Application.singleNum_II" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +375,14 @@
       <workItem from="1603461792562" duration="698000" />
       <workItem from="1603531587666" duration="6760000" />
       <workItem from="1603618297032" duration="9674000" />
-      <workItem from="1603716644890" duration="3726000" />
+      <workItem from="1603716644890" duration="3858000" />
+      <workItem from="1603806039033" duration="2435000" />
+      <workItem from="1603889816253" duration="2911000" />
+      <workItem from="1603975930472" duration="3299000" />
+      <workItem from="1604061871397" duration="1060000" />
+      <workItem from="1604135866183" duration="4107000" />
+      <workItem from="1604233320969" duration="6825000" />
+      <workItem from="1604321912661" duration="3187000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -523,17 +398,24 @@
       <option name="project" value="LOCAL" />
       <updated>1603720330227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
+      <created>1603720418872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603720418872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61987000" />
+    <option name="totallyTimeSpent" value="85943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -543,7 +425,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34457478" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39442816" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38856304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -551,9 +433,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.47214076" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32844576" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -588,6 +470,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -645,35 +541,22 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Stack/longestValidParentheses.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/searchRange.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/maxProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="1432" column="19" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
-          <folding>
-            <element signature="e#55800#55801#0" expanded="true" />
-            <element signature="e#55844#55845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mathmatics/nthUglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/singleNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -902,6 +785,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/nextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack/longestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" selection-start-line="5" selection-start-column="7" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/searchRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/combinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#combinationSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strings/isValid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -909,6 +841,65 @@
           <folding>
             <element signature="e#167#208#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strings/generateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/permute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/rotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strings/groupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/maxsubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeKLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -926,31 +917,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strings/generateParenthesis.java">
+    <entry file="file://$PROJECT_DIR$/src/GreedyAlo/canJump.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="216">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8/src.zip!/javax/swing/tree/DefaultTreeSelectionModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="218">
+          <caret line="101" column="44" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/mergeKLists.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/uniquePaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/merge_array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/groupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>

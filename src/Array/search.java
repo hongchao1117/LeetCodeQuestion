@@ -4,9 +4,9 @@ package Array;
 public class search {
     public int search(int[] nums, int target) {
         int left = 0;//最左边的数
-        int right = nums.length-1;//最左边的数
+        int right = nums.length-1;//最右边的数
         while (left<=right){
-            int mid = (left+right)>>2;
+            int mid = (left+right)>>1;
             if (nums[mid]==target)
                 return mid;
             if (nums[mid]<nums[right]){//右边可能未发生旋转
