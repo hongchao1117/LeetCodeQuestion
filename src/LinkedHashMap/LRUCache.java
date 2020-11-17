@@ -27,8 +27,10 @@ public class LRUCache {
         if (map.containsKey(key)){
             map.remove(key);
         }else if (map.size()==cap){
-           int firstKey = map.entrySet().iterator().next().getKey();
-           map.remove(firstKey);
+//           int firstKey = map.entrySet().iterator().next().getKey();
+            Map.Entry<Integer, Integer> iterator = map.entrySet().iterator().next();
+            int firstKey = iterator.getKey();
+            map.remove(firstKey);
         }
         map.put(key,value);
     }

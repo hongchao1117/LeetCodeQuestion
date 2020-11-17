@@ -11,7 +11,7 @@ public class MinStack {
     }
 
     public void push(int x) {
-        if (min>x){
+        if (min>=x){
             stack.push(min);
             min = x;
         }
