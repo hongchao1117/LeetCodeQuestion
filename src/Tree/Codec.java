@@ -1,18 +1,51 @@
 package Tree;
 
+import Sort.LinkedListSorting;
+
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 /**
  * 请实现两个函数，分别用来序列化和反序列化二叉树。
  */
 public class Codec {
-    private TreeNode root;
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        this.root = root;
-        return null;
+        StringBuilder res = getSerRes(root,new StringBuilder());
+        return res.toString();
+    }
+
+    private StringBuilder getSerRes(TreeNode root, StringBuilder stringBuilder) {
+        if (root==null){
+            stringBuilder.append("null,");
+            return stringBuilder;
+        }
+        stringBuilder.append(root.val);
+        stringBuilder.append(",");
+        getSerRes(root.left,stringBuilder);
+        getSerRes(root.right,stringBuilder);
+        return stringBuilder;
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        return root;
+        String[] strings = data.split(",");
+        LinkedList<String> list = new LinkedList<>(Arrays.asList(strings));
+        return getDeserRes(list);
+    }
+
+    private TreeNode getDeserRes( LinkedList<String> list) {
+        if (list.get(0).equals("null")){
+            list.remove(0);
+            return null;
+        }
+        TreeNode res = new TreeNode(Integer.valueOf(list.get(0)));
+        list.remove(0);
+        res.left = getDeserRes(list);
+        res.right = getDeserRes(list);
+        return res;
     }
 }
