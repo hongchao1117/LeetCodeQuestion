@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/arrayPairSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findUnsortedSubarray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/largestRectangleArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/trap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/merge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/countSubstrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/dailyTemperatures.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/minDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/maximalRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/maxPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/maxPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/maxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/maxPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +45,6 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
-  </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -45,62 +54,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dp" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.decodeString">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="decodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.decodeString" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.maxPathSum">
+    <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lengthOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.lengthOfLIS" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="longestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.longestConsecutive" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphic.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,6 +97,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.reconstructQueue" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.subarraySum" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="wordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.wordBreak" />
       <module name="LeetCode题目" />
@@ -134,17 +136,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.decodeString" />
-        <item itemvalue="Application.lengthOfLIS" />
-        <item itemvalue="Application.maxProduct" />
+        <item itemvalue="Application.maxPathSum" />
+        <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.wordBreak" />
-        <item itemvalue="Application.longestConsecutive" />
+        <item itemvalue="Application.reconstructQueue" />
+        <item itemvalue="Application.maxProduct" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,7 +224,22 @@
       <workItem from="1605792599489" duration="2569000" />
       <workItem from="1605875018362" duration="3897000" />
       <workItem from="1605950653196" duration="9900000" />
-      <workItem from="1606298555831" duration="1419000" />
+      <workItem from="1606039598235" duration="6005000" />
+      <workItem from="1606138313554" duration="4392000" />
+      <workItem from="1606222796520" duration="20000" />
+      <workItem from="1606222836462" duration="56000" />
+      <workItem from="1606222934465" duration="392000" />
+      <workItem from="1606223369045" duration="3526000" />
+      <workItem from="1606310314039" duration="3188000" />
+      <workItem from="1606397176761" duration="3507000" />
+      <workItem from="1606567990744" duration="7295000" />
+      <workItem from="1606641236556" duration="3597000" />
+      <workItem from="1606742855178" duration="2098000" />
+      <workItem from="1606828815329" duration="1897000" />
+      <workItem from="1606917168115" duration="2128000" />
+      <workItem from="1607003354371" duration="1814000" />
+      <workItem from="1607087607677" duration="3002000" />
+      <workItem from="1607170969611" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -255,7 +283,42 @@
       <option name="project" value="LOCAL" />
       <updated>1605624756929</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增LeetCode hot 100 的部分题目">
+      <created>1606039640296</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606039640297</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增题目">
+      <created>1606223273263</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606223273263</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新增题目">
+      <created>1606401267574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606401267574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="新增题目">
+      <created>1606744428694</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606744428694</updated>
+    </task>
+    <task id="LOCAL-00011" summary="新增题目">
+      <created>1607006957139</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607006957139</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -301,34 +364,54 @@
     <MESSAGE value="新增部分LeetCode hot 100" />
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增LeetCode hot 100 的部分题目" />
+    <MESSAGE value="新增题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1602144435511">
+    <state x="361" y="108" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606310329346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602144435511" />
-    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1602144435511">
+    <state x="361" y="108" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1606310329346" />
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1607091237644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602144435511" />
-    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1602144435511">
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1607091237644" />
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1607006952803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602144435511" />
-    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1602144435511">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607006952803" />
+    <state width="1492" height="196" key="GridCell.Tab.0.bottom" timestamp="1607091650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602144435511" />
+    <state width="1492" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
+    <state width="1492" height="196" key="GridCell.Tab.0.center" timestamp="1607091650552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
+    <state width="1492" height="196" key="GridCell.Tab.0.left" timestamp="1607091650552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
+    <state width="1492" height="196" key="GridCell.Tab.0.right" timestamp="1607091650552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
     <state x="526" y="114" key="RollbackChangesDialog" timestamp="1602160567686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602160567686" />
-    <state x="503" y="197" width="838" height="922" key="search.everywhere.popup" timestamp="1606819266506">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1606223329476">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602157906599" />
-    <state x="503" y="197" width="838" height="922" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1606819266506" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606223329476" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607175610320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607175610320" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607170980558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607170980558" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,79 +466,22 @@
           <line>8</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/reconstructQueue.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/subarraySum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tree/maxPathSum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

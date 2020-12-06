@@ -18,18 +18,19 @@ public class isPalindrome {
     }
 
     public boolean IsPalindrome(ListNode head) {
-        ListNode fast =  head,slow =  head;
-        while (fast!=null && fast.next!=null){
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;
         }
-        if (fast!=null){//fast不为空，链表为奇数个
-            slow =slow.next;
+        //fast不为空，链表为奇数个
+        if (fast != null) {
+            slow = slow.next;
         }
         slow = reverse(slow);
         fast = head;
-        while (slow!=null){
-            if (fast.val!=slow.val)
+        while (slow != null) {
+            if (fast.val != slow.val)
                 return false;
             fast = fast.next;
             slow = slow.next;
@@ -39,7 +40,7 @@ public class isPalindrome {
 
     private ListNode reverse(ListNode head) {
         ListNode pre = null;
-        while (head!=null){
+        while (head != null) {
             ListNode next = head.next;
             head.next = pre;
             pre = head;
