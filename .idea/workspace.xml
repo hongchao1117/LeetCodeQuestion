@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/arrayPairSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findUnsortedSubarray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/largestRectangleArea.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/trap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/merge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/countSubstrings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/dailyTemperatures.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/minDistance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/maximalRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/maxPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/maxPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/maxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/maxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -44,6 +35,9 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
@@ -239,7 +233,12 @@
       <workItem from="1606917168115" duration="2128000" />
       <workItem from="1607003354371" duration="1814000" />
       <workItem from="1607087607677" duration="3002000" />
-      <workItem from="1607170969611" duration="2567000" />
+      <workItem from="1607170969611" duration="3197000" />
+      <workItem from="1608035659374" duration="1474000" />
+      <workItem from="1608125422071" duration="1548000" />
+      <workItem from="1608208351960" duration="1214000" />
+      <workItem from="1608557313853" duration="1804000" />
+      <workItem from="1608817831061" duration="2028000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -318,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607006957139</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="新增题目">
+      <created>1607175634718</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607175634718</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,10 +382,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1607091237644" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1607006952803">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1607175630071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607006952803" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607175630071" />
     <state width="1492" height="196" key="GridCell.Tab.0.bottom" timestamp="1607091650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -404,14 +410,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606223329476" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607175610320">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607175639909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607175610320" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607170980558">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607175639909" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608817837318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607170980558" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608817837318" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
