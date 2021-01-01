@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,17 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.maxPathSum" />
@@ -238,7 +226,9 @@
       <workItem from="1608125422071" duration="1548000" />
       <workItem from="1608208351960" duration="1214000" />
       <workItem from="1608557313853" duration="1804000" />
-      <workItem from="1608817831061" duration="2028000" />
+      <workItem from="1608817831061" duration="2659000" />
+      <workItem from="1608903144652" duration="3875000" />
+      <workItem from="1609334838768" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -324,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607175634718</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="新增题目">
+      <created>1608819888015</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608819888015</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -382,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1607091237644" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1607175630071">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1608819884704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607175630071" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608819884704" />
     <state width="1492" height="196" key="GridCell.Tab.0.bottom" timestamp="1607091650552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -410,14 +407,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606223329476" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607175639909">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608819900393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607175639909" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608817837318">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608819900393" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1609335730097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608817837318" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1609335730097" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
