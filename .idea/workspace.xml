@@ -3,249 +3,18 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/TwoSum_easy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/arrayPairSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/constructArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/countDigitOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/exist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findContinuousSequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findDisappearedNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findDuplicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMedianSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findTargetSumWays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findUnsortedSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/groupAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/hammingDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/isStraight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/largestRectangleArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/lastRemaining.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/lengthOfLIS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/longestConsecutive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/majorityElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxsubArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/merge_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/minSubArrayLen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/moveZeroes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/movingCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/nextPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/numIslands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/numSquares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/partition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/productExceptSelf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/reconstructQueue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/reconstructQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/removeDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/reversePairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchInsert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchMatrix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNum_II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/singleNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/solve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/sortColors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/subarraySum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/subsetsWithDup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/sumEvenAfterQueries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/thirdMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/threeSumClosest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/topKFrequent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/trap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/twoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/uncommonFromSentences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/uniquePaths.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/canFinish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/canJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/findContentChildrenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/largestSumAfterKNegationsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/lastStoneWeightTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/minDeletionSize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/GreedyAlo/twoCitySchedCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedHashMap/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/addTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/copyRandomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/deleteNode$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/deleteNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/detectCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/divideDoubleList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/divideDoubleList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/hasCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/insertionSortList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/isPalindrome_LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeKLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/mergeTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/oddEvenList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeElements$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reorderList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseBetween.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseList$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/reverseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/sortList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/swapPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/countBits.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/generate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/nthUglyNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/sumNums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/CollectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/RongQiLeiTest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/LinkedListSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/intersect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/largestPerimeterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/StackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/backspaceCompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/longestValidParentheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/nextGreaterElementTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/removeDuplicatesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Stack/zifuchuanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/Automaton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/Automaton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/FizzBuzz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addBinary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/bytedanceInterview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/checkRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/decodeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/detectCapitalUse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/generateParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/groupAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isInterleave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isValid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/ladderLength.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLastWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/letterCombinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestCommonPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/minWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/myAtoi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseLeftWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/strStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/strToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/wordBreak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Structure/MaxQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Structure/Trie$TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Structure/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/CountDownLatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/JavaPreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/LRUDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/ThreadUnsafeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/ThreadUnsafeExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/exceptionDemo$exceptionInstance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/exceptionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/interfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/method.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/test02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/Codec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/FindKLevel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/averageOfLevels$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/averageOfLevels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/buildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/convertBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/diameterOfBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/flatten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/invertTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isBalanced.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSameTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSym.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isValidBST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/largestValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/levelOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/maxPathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/mergeTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/numTrees.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/pathSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/pathSum_int.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/preorderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/rob_02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/sumNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/JinZhiZhuanHuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/isPrime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/test/isReapte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/treeToDoublyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/canPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/countSubstrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/dailyTemperatures.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/findTargetSumWays_dp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit_freezed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maximalSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/minDistance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/minPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -253,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -267,6 +37,17 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -276,16 +57,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dp" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -358,15 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -463,7 +244,18 @@
       <workItem from="1606917168115" duration="2128000" />
       <workItem from="1607003354371" duration="1814000" />
       <workItem from="1607087607677" duration="3002000" />
-      <workItem from="1607170969611" duration="2567000" />
+      <workItem from="1607170969611" duration="3197000" />
+      <workItem from="1608035659374" duration="1474000" />
+      <workItem from="1608125422071" duration="1548000" />
+      <workItem from="1608208351960" duration="1214000" />
+      <workItem from="1608557313853" duration="1804000" />
+      <workItem from="1608817831061" duration="2659000" />
+      <workItem from="1608903144652" duration="3875000" />
+      <workItem from="1609334838768" duration="2054000" />
+      <workItem from="1609509699211" duration="524000" />
+      <workItem from="1609766504935" duration="2902000" />
+      <workItem from="1613998940182" duration="2995000" />
+      <workItem from="1614084894328" duration="2785000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -542,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607006957139</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="新增题目">
+      <created>1607175634718</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607175634718</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新增题目">
+      <created>1608819888015</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608819888015</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -590,54 +396,6 @@
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
     <MESSAGE value="新增题目" />
     <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="108" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606310329346">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="108" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1606310329346" />
-    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1607091237644">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1607091237644" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1607006952803">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607006952803" />
-    <state width="1492" height="196" key="GridCell.Tab.0.bottom" timestamp="1607091650552">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1492" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
-    <state width="1492" height="196" key="GridCell.Tab.0.center" timestamp="1607091650552">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1492" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
-    <state width="1492" height="196" key="GridCell.Tab.0.left" timestamp="1607091650552">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1492" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
-    <state width="1492" height="196" key="GridCell.Tab.0.right" timestamp="1607091650552">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1492" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607091650552" />
-    <state x="526" y="114" key="RollbackChangesDialog" timestamp="1602160567686">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="526" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602160567686" />
-    <state x="291" y="23" key="SettingsEditor" timestamp="1607239347399">
-      <screen x="0" y="23" width="1792" height="1017" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606223329476" />
-    <state x="291" y="23" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1607239347399" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607175610320">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607175610320" />
-    <state x="503" y="203" width="838" height="841" key="search.everywhere.popup" timestamp="1607238287505">
-      <screen x="0" y="23" width="1792" height="1022" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607170980558" />
-    <state x="503" y="203" width="838" height="841" key="search.everywhere.popup/0.23.1792.1022@0.23.1792.1022" timestamp="1607238287505" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
