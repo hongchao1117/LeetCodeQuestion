@@ -1,6 +1,5 @@
 package Tree;
 
-import com.sun.corba.se.spi.ior.iiop.IIOPFactories;
 
 public class checkSubTree {
     public boolean checkSubTree(TreeNode t1, TreeNode t2) {

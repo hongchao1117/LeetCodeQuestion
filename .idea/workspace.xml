@@ -3,10 +3,38 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/combinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/combinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/exist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/exist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphic/canFinish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphic/canFinish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/checkSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/checkSubTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/inorderSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/inorderSuccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/pathSum_int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/pathSum_int.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -71,17 +99,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Test.Listener" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.maxPathSum">
-    <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
+  <component name="RunManager" selected="Application.canFinish">
+    <configuration name="arrayPairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.arrayPairSum" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.maxProduct" />
+    <configuration name="canFinish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphic.canFinish" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.reconstructQueue" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.annotation.demo" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Test.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.subarraySum" />
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Listener.test" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Test.Listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.wordBreak" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.annotation.test" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Test.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.maxPathSum" />
-        <item itemvalue="Application.subarraySum" />
-        <item itemvalue="Application.wordBreak" />
-        <item itemvalue="Application.reconstructQueue" />
-        <item itemvalue="Application.maxProduct" />
+        <item itemvalue="Application.canFinish" />
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.arrayPairSum" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +287,18 @@
       <workItem from="1609766504935" duration="2902000" />
       <workItem from="1613998940182" duration="2995000" />
       <workItem from="1614084894328" duration="2785000" />
+      <workItem from="1607937448935" duration="4188000" />
+      <workItem from="1608135687410" duration="622000" />
+      <workItem from="1608176373276" duration="528000" />
+      <workItem from="1608200309697" duration="1060000" />
+      <workItem from="1608201383932" duration="2496000" />
+      <workItem from="1608517319626" duration="896000" />
+      <workItem from="1608801509404" duration="1812000" />
+      <workItem from="1609038246223" duration="1509000" />
+      <workItem from="1609395902404" duration="4595000" />
+      <workItem from="1613892435967" duration="3202000" />
+      <workItem from="1614071832584" duration="1393000" />
+      <workItem from="1614345416653" duration="12511000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -335,18 +378,18 @@
       <updated>1607006957139</updated>
     </task>
     <task id="LOCAL-00012" summary="新增题目">
-      <created>1607175634718</created>
+      <created>1607308185252</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1607175634718</updated>
+      <updated>1607308185252</updated>
     </task>
     <task id="LOCAL-00013" summary="新增题目">
-      <created>1608819888015</created>
+      <created>1607308195427</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1608819888015</updated>
+      <updated>1607308195427</updated>
     </task>
     <option name="localTasksCounter" value="14" />
     <servers />
@@ -411,11 +454,6 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Array/findMedianSortedArrays.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Stack/longestValidParentheses.java</url>
           <line>16</line>
           <option name="timeStamp" value="6" />
@@ -464,6 +502,11 @@
           <url>file://$PROJECT_DIR$/src/Tree/maxPathSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Listener/test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
