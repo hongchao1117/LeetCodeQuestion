@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit_freezed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit_freezed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/maxProfit_freezed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/maxProfit_freezed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +80,13 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.maxPathSum">
-    <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
+  <component name="RunManager" selected="Application.isValidSudoku">
+    <configuration name="isValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathmatics.isValidSudoku" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.*" />
+          <option name="PATTERN" value="Mathmatics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.maxProduct" />
+    <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphic.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,24 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isValidSudoku" />
         <item itemvalue="Application.maxPathSum" />
         <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.wordBreak" />
         <item itemvalue="Application.reconstructQueue" />
-        <item itemvalue="Application.maxProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +262,15 @@
       <workItem from="1609509699211" duration="524000" />
       <workItem from="1609766504935" duration="2902000" />
       <workItem from="1613998940182" duration="2995000" />
-      <workItem from="1614084894328" duration="2785000" />
+      <workItem from="1614084894328" duration="3641000" />
+      <workItem from="1614171772979" duration="1770000" />
+      <workItem from="1614258161895" duration="4462000" />
+      <workItem from="1614429133023" duration="4610000" />
+      <workItem from="1614603698433" duration="2098000" />
+      <workItem from="1614689301261" duration="3395000" />
+      <workItem from="1614776384443" duration="3659000" />
+      <workItem from="1614865486014" duration="2023000" />
+      <workItem from="1615120985575" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -348,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608819888015</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增题目">
+      <created>1614089580953</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614089580954</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -396,6 +418,8 @@
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
     <MESSAGE value="新增题目" />
     <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

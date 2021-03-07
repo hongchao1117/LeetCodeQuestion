@@ -1,7 +1,5 @@
 package dp;
 
-import java.lang.reflect.Proxy;
-
 public class maxProfit_freezed {
     public int maxProfit(int[] prices) {
         if (prices.length < 2) return 0;
