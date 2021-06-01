@@ -3,15 +3,17 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/CoinChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit_freezed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/maxProfit_freezed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/generateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/maxProfit_freezed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/maxProfit_freezed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/rotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/reverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/reverseKGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/lowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/lowestCommonAncestor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,11 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
@@ -146,26 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.isValidSudoku" />
-        <item itemvalue="Application.maxPathSum" />
-        <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.wordBreak" />
+        <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.reconstructQueue" />
+        <item itemvalue="Application.maxPathSum" />
+        <item itemvalue="Application.isValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +264,16 @@
       <workItem from="1614689301261" duration="3395000" />
       <workItem from="1614776384443" duration="3659000" />
       <workItem from="1614865486014" duration="2023000" />
-      <workItem from="1615120985575" duration="2964000" />
+      <workItem from="1615120985575" duration="3613000" />
+      <workItem from="1615208554073" duration="4728000" />
+      <workItem from="1617025123496" duration="596000" />
+      <workItem from="1617715381032" duration="1190000" />
+      <workItem from="1617801138611" duration="3159000" />
+      <workItem from="1617888937828" duration="33000" />
+      <workItem from="1617889063070" duration="60000" />
+      <workItem from="1617889891690" duration="1073000" />
+      <workItem from="1622468127225" duration="3091000" />
+      <workItem from="1622555944717" duration="1214000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -370,8 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1614089580954</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="新增题目">
+      <created>1615126010197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615126010197</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,6 +394,40 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
