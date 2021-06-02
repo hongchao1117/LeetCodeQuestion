@@ -26,15 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_24,_4_04_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_24__4_04___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/combinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/combinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/exist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/exist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphic/canFinish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphic/canFinish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSym.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isSym.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/numIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/numIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/checkSubTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/checkSubTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/inorderSuccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/inorderSuccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/pathSum_int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/pathSum_int.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/detectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/detectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/mergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/isSym.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/isSym.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +108,13 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.canFinish">
-    <configuration name="arrayPairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.arrayPairSum" />
+  <component name="RunManager" selected="Application.FieldDemo">
+    <configuration name="FieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.fieldTest.FieldDemo" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Test.fieldTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,24 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FieldDemo" />
         <item itemvalue="Application.canFinish" />
         <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.demo" />
-        <item itemvalue="Application.arrayPairSum" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +289,10 @@
       <workItem from="1609395902404" duration="4595000" />
       <workItem from="1613892435967" duration="3202000" />
       <workItem from="1614071832584" duration="1393000" />
-      <workItem from="1614345416653" duration="12511000" />
+      <workItem from="1614345416653" duration="25207000" />
+      <workItem from="1617791490765" duration="139000" />
+      <workItem from="1617791684825" duration="1083000" />
+      <workItem from="1621671753064" duration="1477000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -391,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607308195427</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增题目">
+      <created>1614758419186</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614758419186</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">

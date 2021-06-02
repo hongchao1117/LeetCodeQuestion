@@ -9,14 +9,14 @@ public class reverseWords {
         System.out.println(reverseWords(s));
     }
 
-    public static  String reverseWords(String s) {
+    public static String reverseWords(String s) {
         String[] strings = s.trim().split(" ");
         ArrayList<String> list = new ArrayList<>();
-        for (int i = strings.length-1; i>=0; i--) {
-            if (strings[i].length()>0)
+        for (int i = strings.length - 1; i >= 0; i--) {
+            if (strings[i].length() > 0)
                 list.add(strings[i]);
 
         }
-        return String.join(" ",list);
+        return String.join(" ", list);
     }
 }

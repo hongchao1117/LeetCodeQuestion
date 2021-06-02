@@ -15,16 +15,16 @@ public class detectCycle {
     public ListNode detectCycle(ListNode head) {
         ListNode p1 = head;//慢指针
         ListNode p2 = head;//快指针
-        while (p2!=null && p2.next!=null){
+        while (p2 != null && p2.next != null) {
             p1 = p1.next;
             p2 = p2.next.next;
-            if (p1==p2){
+            if (p1 == p2) {
                 p1 = head;
-                while (p1!=p2){
+                while (p1 != p2) {
                     p1 = p1.next;
                     p2 = p2.next;
                 }
-                if (p1==p2)
+                if (p1 == p2)
                     return p1;
             }
         }
