@@ -1,11 +1,8 @@
 package Slidingwindow;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class minWindow {
     public String minWindow(String s, String t) {
-        int[] mp = new int[256];
+        int[] mp = new int[128];
         for (char ch : t.toCharArray()) {
             mp[ch] += 1;
         }
