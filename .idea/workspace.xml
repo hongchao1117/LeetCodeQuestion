@@ -8,12 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/rotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/reverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/reverseKGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/lowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/lowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/isValidSudoku.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/isValidSudoku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/generateParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/generateParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/combinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/combinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/diameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/diameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/inorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/inorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,27 +86,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.isValidSudoku">
-    <configuration name="isValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathmatics.isValidSudoku" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mathmatics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.reverseWords">
     <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
       <module name="LeetCode题目" />
@@ -120,6 +113,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverseWords" />
         <item itemvalue="Application.wordBreak" />
         <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.reconstructQueue" />
         <item itemvalue="Application.maxPathSum" />
-        <item itemvalue="Application.isValidSudoku" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +279,15 @@
       <workItem from="1617889063070" duration="60000" />
       <workItem from="1617889891690" duration="1073000" />
       <workItem from="1622468127225" duration="3091000" />
-      <workItem from="1622555944717" duration="1214000" />
+      <workItem from="1622555944717" duration="1351000" />
+      <workItem from="1622641919718" duration="488000" />
+      <workItem from="1622726927781" duration="3081000" />
+      <workItem from="1622898298661" duration="2961000" />
+      <workItem from="1622983226934" duration="1756000" />
+      <workItem from="1623071515357" duration="2246000" />
+      <workItem from="1623159195835" duration="2842000" />
+      <workItem from="1623245753059" duration="1612000" />
+      <workItem from="1623332656193" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -380,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615126010197</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="mod:题解修改">
+      <created>1622557339391</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622557339391</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -464,7 +485,8 @@
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
     <MESSAGE value="新增题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
+    <MESSAGE value="mod:题解修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod:题解修改" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -535,6 +557,14 @@
           <url>file://$PROJECT_DIR$/src/Tree/maxPathSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Strings/reverseWords.java</url>
+          <line>7</line>
+          <properties class="Strings.reverseWords" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
