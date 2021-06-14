@@ -291,7 +291,7 @@
       <workItem from="1623465495081" duration="2449000" />
       <workItem from="1623489710167" duration="3019000" />
       <workItem from="1623550806756" duration="3354000" />
-      <workItem from="1623673413237" duration="2391000" />
+      <workItem from="1623673413237" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -419,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623334843894</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="新增题目">
+      <created>1623676524236</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623676524236</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
