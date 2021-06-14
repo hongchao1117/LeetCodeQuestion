@@ -9,15 +9,14 @@ public class inorderTraversal {
         List<Integer> list = new ArrayList<>();
         if (root == null) return list;
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode temp = root;
-        while (temp != null || !stack.isEmpty()) {
-            while (temp != null) {
-                stack.push(temp);
-                temp = temp.left;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
             }
-            temp = stack.pop();
-            list.add(temp.val);
-            temp = temp.right;
+            root = stack.pop();
+            list.add(root.val);
+            root = root.right;
         }
         return list;
     }
