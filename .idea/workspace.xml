@@ -8,7 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/findKthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/generateParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/isValidSudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/lowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/minWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/reverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/rotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/diameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/diameterOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/maxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/maxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/minPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/minPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +102,7 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reverseWords">
-    <configuration name="maxPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.maxPathSum" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.romanToInt">
     <configuration name="reconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.reconstructQueue" />
       <module name="LeetCode题目" />
@@ -111,6 +118,19 @@
     </configuration>
     <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="romanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.romanToInt" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -148,24 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.romanToInt" />
         <item itemvalue="Application.reverseWords" />
         <item itemvalue="Application.wordBreak" />
         <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.reconstructQueue" />
-        <item itemvalue="Application.maxPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +300,13 @@
       <workItem from="1623465495081" duration="2449000" />
       <workItem from="1623489710167" duration="3019000" />
       <workItem from="1623550806756" duration="3354000" />
-      <workItem from="1623673413237" duration="5017000" />
+      <workItem from="1623673413237" duration="5628000" />
+      <workItem from="1623763300116" duration="4010000" />
+      <workItem from="1623850489624" duration="2207000" />
+      <workItem from="1623936311257" duration="5823000" />
+      <workItem from="1624091358358" duration="13842000" />
+      <workItem from="1624186214605" duration="7889000" />
+      <workItem from="1624281393729" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -426,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623676524236</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="新增题目">
+      <created>1623681049158</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623681049158</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -581,6 +603,16 @@
           <url>file://$PROJECT_DIR$/src/Tree/maxPathSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/romanToInt.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/romanToInt.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
