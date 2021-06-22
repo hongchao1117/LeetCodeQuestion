@@ -8,11 +8,13 @@ public class findDuplicate {
             slow = nums[slow];
             if (fast==slow){
                 fast = 0;
-                while (nums[slow]!=nums[fast]){
+                while (nums[slow] != nums[fast]) {
                     fast = nums[fast];
                     slow = nums[slow];
                 }
-                return nums[slow];
+                if (nums[slow] == nums[fast]) {
+                    return nums[slow];
+                }
             }
         }
     }
