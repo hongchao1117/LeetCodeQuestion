@@ -9,6 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/oddEvenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/oddEvenList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +83,13 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.romanToInt">
-    <configuration name="reconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.reconstructQueue" />
+  <component name="RunManager" selected="Application.largestNumber">
+    <configuration name="largestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.largestNumber" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +149,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.largestNumber" />
         <item itemvalue="Application.romanToInt" />
         <item itemvalue="Application.reverseWords" />
         <item itemvalue="Application.wordBreak" />
         <item itemvalue="Application.subarraySum" />
-        <item itemvalue="Application.reconstructQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +299,10 @@
       <workItem from="1624091358358" duration="13842000" />
       <workItem from="1624186214605" duration="7889000" />
       <workItem from="1624281393729" duration="2080000" />
-      <workItem from="1624368116177" duration="1516000" />
+      <workItem from="1624368116177" duration="2953000" />
+      <workItem from="1624454432921" duration="2047000" />
+      <workItem from="1624887992978" duration="1992000" />
+      <workItem from="1624973475770" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -436,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624281849081</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="mod:fix error">
+      <created>1624371643824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624371643824</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -520,7 +542,8 @@
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
     <MESSAGE value="新增题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
+    <MESSAGE value="mod:fix error" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod:fix error" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
