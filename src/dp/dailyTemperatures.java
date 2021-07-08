@@ -23,7 +23,7 @@ public class dailyTemperatures {
         Deque<Integer> stack = new ArrayDeque<>();
         int[] res = new int[T.length];
         for (int i = 0; i < T.length; i++) {
-            while (!stack.isEmpty() && T[i] > stack.peek()) {
+            while (!stack.isEmpty() && T[i] > T[stack.peek()]) {
                 int temp = stack.pop();
                 res[temp] = i - temp;
             }
