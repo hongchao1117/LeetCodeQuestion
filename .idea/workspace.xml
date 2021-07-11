@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/spiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/spiralOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/countSubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/countSubstrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +309,7 @@
       <workItem from="1625666026473" duration="2906000" />
       <workItem from="1625752011425" duration="3686000" />
       <workItem from="1625914910376" duration="4987000" />
-      <workItem from="1625992483635" duration="598000" />
+      <workItem from="1625992483635" duration="7147000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625756404638</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1625993121723</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1625993121723</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
