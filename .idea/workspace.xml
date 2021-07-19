@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/isInterleave.java" afterDir="false" />
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="mod:fix error &amp;&amp; add some questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/isInterleave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isInterleave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,27 +77,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.partitionDisjoint">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.mergeSort">
     <configuration name="calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.calculate" />
       <module name="LeetCode题目" />
@@ -117,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.mergeSort" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeSort" />
         <item itemvalue="Application.partitionDisjoint" />
         <item itemvalue="Application.calculate" />
         <item itemvalue="Application.maximumSwap" />
         <item itemvalue="Application.removeKdigits" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +313,8 @@
       <workItem from="1625992483635" duration="21547000" />
       <workItem from="1626357784957" duration="964000" />
       <workItem from="1626512481103" duration="9651000" />
+      <workItem from="1626596484042" duration="12895000" />
+      <workItem from="1626698902866" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -710,6 +712,11 @@
           <url>file://$PROJECT_DIR$/src/Array/partitionDisjoint.java</url>
           <line>5</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
