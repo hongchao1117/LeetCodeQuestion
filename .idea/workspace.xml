@@ -9,8 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="mod:fix error &amp;&amp; add some questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/isInterleave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/addTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/addTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isCompleteTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isCompleteTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mergeSort">
+  <component name="RunManager" selected="Application.firstMissingPositive">
     <configuration name="calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.calculate" />
       <module name="LeetCode题目" />
@@ -98,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maximumSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.maximumSwap" />
+    <configuration name="firstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.firstMissingPositive" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="partitionDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.partitionDisjoint" />
+    <configuration name="minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Slidingwindow.minWindow" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="removeKdigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.removeKdigits" />
+    <configuration name="partitionDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.partitionDisjoint" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.firstMissingPositive" />
+        <item itemvalue="Application.minWindow" />
         <item itemvalue="Application.mergeSort" />
         <item itemvalue="Application.partitionDisjoint" />
         <item itemvalue="Application.calculate" />
-        <item itemvalue="Application.maximumSwap" />
-        <item itemvalue="Application.removeKdigits" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +318,9 @@
       <workItem from="1626357784957" duration="964000" />
       <workItem from="1626512481103" duration="9651000" />
       <workItem from="1626596484042" duration="12895000" />
-      <workItem from="1626698902866" duration="5000000" />
+      <workItem from="1626698902866" duration="5528000" />
+      <workItem from="1626873219825" duration="5504000" />
+      <workItem from="1626960222438" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -519,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626359975437</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626705443555</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1626705443555</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -717,6 +730,16 @@
           <url>file://$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java</url>
           <line>6</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Slidingwindow/minWindow.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/firstMissingPositive.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
