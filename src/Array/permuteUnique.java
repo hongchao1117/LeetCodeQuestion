@@ -1,6 +1,7 @@
 package Array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class permuteUnique {
@@ -8,6 +9,7 @@ public class permuteUnique {
         List<List<Integer>> res = new ArrayList<>();
         if (nums == null || nums.length <= 0) return res;
         int[] visited = new int[nums.length];
+        Arrays.sort(nums);
         getRes(res, nums, visited, new ArrayList<>());
         return res;
     }
@@ -18,10 +20,7 @@ public class permuteUnique {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
-            if (visited[i] == 1) {
-                continue;
-            }
-            if (i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == 0) {
+            if (visited[i] == 1 || (i > 0 && nums[i] == nums[i - 1] && visited[i - 1] == 1)) {
                 continue;
             }
             list.add(nums[i]);
