@@ -19,4 +19,16 @@ public class maxProfit {
         }
         return res;
     }
+
+    public int maxProfitII(int[] prices) {
+        if (prices.length <= 1) return 0;
+        int max = 0,len = prices.length;
+        for (int i = 1; i < len; i++) {
+            if (prices[i]>prices[i-1]){
+                max += prices[i] - prices[i-1];
+            }
+        }
+        return max;
+    }
+
 }

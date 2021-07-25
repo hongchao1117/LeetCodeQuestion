@@ -16,6 +16,6 @@ public class oddEvenList {
             p2end = p2end.next;
         }
         p1.next = p2;
-        return p1;
+        return head;
     }
 }

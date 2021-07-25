@@ -2,13 +2,13 @@ package Tree;
 
 public class flatten {
     public void flatten(TreeNode root) {
-        if (root==null) return;
-        while(root!=null){
-            if (root.left==null){
+        if (root == null) return;
+        while (root != null) {
+            if (root.left == null) {
                 root = root.right;
-            }else{
+            } else {
                 TreeNode pre = root.left;
-                while(pre.right!=null){
+                while (pre.right != null) {
                     pre = pre.right;
                 }
                 pre.right = root.right;

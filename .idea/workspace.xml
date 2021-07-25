@@ -9,13 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permuteUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permuteUnique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/reverseWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/diameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/diameterOfBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/addStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/addStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/permuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/permuteUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/translateNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/translateNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/longestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,6 @@
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -83,16 +78,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.convertToTitle">
-    <configuration name="convertToTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.convertToTitle" />
+  <component name="RunManager" selected="Application.firstMissingPositive">
+    <configuration name="calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.calculate" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.reconstructQueue" />
+    <configuration name="firstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.firstMissingPositive" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.reverseWords" />
+    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.mergeSort" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.subarraySum" />
+    <configuration name="minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Slidingwindow.minWindow" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="Slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.wordBreak" />
+    <configuration name="partitionDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.partitionDisjoint" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.convertToTitle" />
-        <item itemvalue="Application.reverseWords" />
-        <item itemvalue="Application.wordBreak" />
-        <item itemvalue="Application.subarraySum" />
-        <item itemvalue="Application.reconstructQueue" />
+        <item itemvalue="Application.firstMissingPositive" />
+        <item itemvalue="Application.minWindow" />
+        <item itemvalue="Application.mergeSort" />
+        <item itemvalue="Application.partitionDisjoint" />
+        <item itemvalue="Application.calculate" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +293,34 @@
       <workItem from="1623159195835" duration="2842000" />
       <workItem from="1623245753059" duration="1612000" />
       <workItem from="1623332656193" duration="1322000" />
+      <workItem from="1623465495081" duration="2449000" />
+      <workItem from="1623489710167" duration="3019000" />
+      <workItem from="1623550806756" duration="3354000" />
+      <workItem from="1623673413237" duration="5628000" />
+      <workItem from="1623763300116" duration="4010000" />
+      <workItem from="1623850489624" duration="2207000" />
+      <workItem from="1623936311257" duration="5823000" />
+      <workItem from="1624091358358" duration="13842000" />
+      <workItem from="1624186214605" duration="7889000" />
+      <workItem from="1624281393729" duration="2080000" />
+      <workItem from="1624368116177" duration="2953000" />
+      <workItem from="1624454432921" duration="2047000" />
+      <workItem from="1624887992978" duration="1992000" />
+      <workItem from="1624973475770" duration="4845000" />
+      <workItem from="1625060158959" duration="3496000" />
+      <workItem from="1625386512282" duration="8251000" />
+      <workItem from="1625489668360" duration="2857000" />
+      <workItem from="1625666026473" duration="2906000" />
+      <workItem from="1625752011425" duration="3686000" />
+      <workItem from="1625914910376" duration="4987000" />
+      <workItem from="1625992483635" duration="21547000" />
+      <workItem from="1626357784957" duration="964000" />
+      <workItem from="1626512481103" duration="9651000" />
+      <workItem from="1626596484042" duration="12895000" />
+      <workItem from="1626698902866" duration="5528000" />
+      <workItem from="1626873219825" duration="5504000" />
+      <workItem from="1626960222438" duration="3039000" />
+      <workItem from="1627046872848" duration="8484000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -411,7 +434,112 @@
       <option name="project" value="LOCAL" />
       <updated>1622557339391</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="新增题目">
+      <created>1623334760642</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1623334760642</updated>
+    </task>
+    <task id="LOCAL-00018" summary="新增题目">
+      <created>1623334843894</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1623334843894</updated>
+    </task>
+    <task id="LOCAL-00019" summary="新增题目">
+      <created>1623676524236</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1623676524236</updated>
+    </task>
+    <task id="LOCAL-00020" summary="新增题目">
+      <created>1623681049158</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623681049158</updated>
+    </task>
+    <task id="LOCAL-00021" summary="新增题目">
+      <created>1624281849081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624281849081</updated>
+    </task>
+    <task id="LOCAL-00022" summary="mod:fix error">
+      <created>1624371643824</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1624371643824</updated>
+    </task>
+    <task id="LOCAL-00023" summary="addition">
+      <created>1624978793164</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624978793164</updated>
+    </task>
+    <task id="LOCAL-00024" summary="mod:fix error">
+      <created>1625064566536</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1625064566536</updated>
+    </task>
+    <task id="LOCAL-00025" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1625756404638</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1625756404638</updated>
+    </task>
+    <task id="LOCAL-00026" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1625993121723</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1625993121723</updated>
+    </task>
+    <task id="LOCAL-00027" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626011437792</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1626011437792</updated>
+    </task>
+    <task id="LOCAL-00028" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626074383692</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1626074383692</updated>
+    </task>
+    <task id="LOCAL-00029" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626359975437</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626359975437</updated>
+    </task>
+    <task id="LOCAL-00030" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626705443555</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1626705443555</updated>
+    </task>
+    <task id="LOCAL-00031" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1626962684554</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1626962684554</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -495,7 +623,10 @@
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
     <MESSAGE value="新增题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
+    <MESSAGE value="addition" />
+    <MESSAGE value="mod:fix error" />
+    <MESSAGE value="mod:fix error &amp;&amp; add some questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod:fix error &amp;&amp; add some questions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -566,6 +697,56 @@
           <url>file://$PROJECT_DIR$/src/Tree/maxPathSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/romanToInt.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/romanToInt.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dp/CoinChange.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/removeKdigits.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/maximumSwap.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Strings/calculate.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/partitionDisjoint.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/addTwoNumbers.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Slidingwindow/minWindow.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/firstMissingPositive.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
