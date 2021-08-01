@@ -8,19 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/findKthLargest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/generateParenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/isValidSudoku.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/lowestCommonAncestor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/minWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/reverseWords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/rotate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_10_22_17__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/permuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/permuteUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Backtracking/translateNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Backtracking/translateNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/longestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestCommonPrefix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +57,7 @@
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -160,13 +149,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,6 +319,7 @@
       <workItem from="1626873219825" duration="5504000" />
       <workItem from="1626960222438" duration="3039000" />
       <workItem from="1627046872848" duration="8484000" />
+      <workItem from="1627803093256" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -546,7 +538,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626962684554</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="新增题目">
+      <created>1627217138629</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627217138629</updated>
+    </task>
+    <task id="LOCAL-00033" summary="新增题目">
+      <created>1627217180869</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1627217180869</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -629,11 +635,11 @@
     <MESSAGE value="新增部分LeetCode hot 100" />
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
-    <MESSAGE value="新增题目" />
     <MESSAGE value="addition" />
     <MESSAGE value="mod:fix error" />
     <MESSAGE value="mod:fix error &amp;&amp; add some questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod:fix error &amp;&amp; add some questions" />
+    <MESSAGE value="新增题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
