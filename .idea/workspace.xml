@@ -7,8 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25,_8_43_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25__8_43___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="“hongchao1117git config --global user.email“497450115@qq.com &lt;497450115@qq.com&gt;" />
+      </list>
+    </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -145,19 +155,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -318,8 +315,17 @@
       <workItem from="1626698902866" duration="5528000" />
       <workItem from="1626873219825" duration="5504000" />
       <workItem from="1626960222438" duration="3039000" />
-      <workItem from="1627046872848" duration="8484000" />
-      <workItem from="1627803093256" duration="1128000" />
+      <workItem from="1627046872848" duration="10678000" />
+      <workItem from="1627306398408" duration="955000" />
+      <workItem from="1627391925480" duration="2395000" />
+      <workItem from="1627652377180" duration="697000" />
+      <workItem from="1627698652776" duration="1188000" />
+      <workItem from="1628997299369" duration="2333000" />
+      <workItem from="1629033217442" duration="966000" />
+      <workItem from="1629120293989" duration="593000" />
+      <workItem from="1629723772709" duration="1053000" />
+      <workItem from="1629901137863" duration="508000" />
+      <workItem from="1630139214356" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -538,21 +544,35 @@
       <option name="project" value="LOCAL" />
       <updated>1626962684554</updated>
     </task>
-    <task id="LOCAL-00032" summary="新增题目">
-      <created>1627217138629</created>
+    <task id="LOCAL-00032" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1627216368464</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1627217138629</updated>
+      <updated>1627216368464</updated>
     </task>
-    <task id="LOCAL-00033" summary="新增题目">
-      <created>1627217180869</created>
+    <task id="LOCAL-00033" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1627217794732</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1627217180869</updated>
+      <updated>1627217794732</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1627217860084</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1627217860084</updated>
+    </task>
+    <task id="LOCAL-00035" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1627394285085</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627394285085</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -635,11 +655,11 @@
     <MESSAGE value="新增部分LeetCode hot 100" />
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
+    <MESSAGE value="新增题目" />
     <MESSAGE value="addition" />
     <MESSAGE value="mod:fix error" />
     <MESSAGE value="mod:fix error &amp;&amp; add some questions" />
-    <MESSAGE value="新增题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod:fix error &amp;&amp; add some questions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
