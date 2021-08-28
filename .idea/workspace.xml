@@ -8,8 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25,_8_43_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25__8_43___Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,17 +155,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,7 +317,15 @@
       <workItem from="1626960222438" duration="3039000" />
       <workItem from="1627046872848" duration="10678000" />
       <workItem from="1627306398408" duration="955000" />
-      <workItem from="1627391925480" duration="2107000" />
+      <workItem from="1627391925480" duration="2395000" />
+      <workItem from="1627652377180" duration="697000" />
+      <workItem from="1627698652776" duration="1188000" />
+      <workItem from="1628997299369" duration="2333000" />
+      <workItem from="1629033217442" duration="966000" />
+      <workItem from="1629120293989" duration="593000" />
+      <workItem from="1629723772709" duration="1053000" />
+      <workItem from="1629901137863" duration="508000" />
+      <workItem from="1630139214356" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -564,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627217860084</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1627394285085</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1627394285085</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
