@@ -7,7 +7,6 @@ import java.util.Stack;
 public class inorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if (root == null) return list;
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.isEmpty()) {
             while (root != null) {
