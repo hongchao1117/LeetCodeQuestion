@@ -31,7 +31,6 @@ public class combinationSum {
             res.add(new ArrayList<>(tempList));
         }
         for (int i = index; i < candidates.length; i++) {
-            if (target < 0) break;
             tempList.add(candidates[i]);
             getResHelper(candidates, target - candidates[i], res, i, tempList);
             tempList.remove(tempList.size() - 1);
