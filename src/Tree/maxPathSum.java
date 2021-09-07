@@ -23,6 +23,7 @@ public class maxPathSum {
         int left = Math.max(0, getMax(root.left));
         int right = Math.max(0, getMax(root.right));
         max = Math.max(max, left + right + root.val);
+        // 返回经过root的单边最大分支给当前root的父节点计算使用
         return Math.max(left, right) + root.val;
     }
 }

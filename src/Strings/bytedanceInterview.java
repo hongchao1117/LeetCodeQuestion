@@ -29,10 +29,9 @@ public class bytedanceInterview {
                 }
                 arr[low] = arr[high];
                 while (low<high && standard>=arr[low]){
-                    low--;
+                    low++;
                 }
                 arr[high] = arr[low];
-
             }
             arr[low] = standard;
             quickSort(arr,start,low);

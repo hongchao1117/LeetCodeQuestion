@@ -7,13 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25,_8_43_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25_20_49__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_7_25__8_43___Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/longestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode题目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode题目.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/permuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/permuteUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/deleteDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/bytedanceInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/bytedanceInterview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/buildTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/maxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/maxPathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -66,7 +73,7 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -326,6 +333,12 @@
       <workItem from="1629723772709" duration="1053000" />
       <workItem from="1629901137863" duration="508000" />
       <workItem from="1630139214356" duration="1743000" />
+      <workItem from="1630225986753" duration="4530000" />
+      <workItem from="1630236654978" duration="596000" />
+      <workItem from="1630237731981" duration="4752000" />
+      <workItem from="1630662175520" duration="1540000" />
+      <workItem from="1630828474480" duration="5825000" />
+      <workItem from="1630912435261" duration="4906000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
