@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class subarraySum {
     public static void main(String[] args) {
-        int[] nums = new int[]{1,2,3,4,5};
-        int sum = subarraySum(nums, 9);
+        int[] nums = new int[]{1, 3, 3, 1};
+        int sum = subarraySum(nums, 4);
         System.out.println(sum);
     }
     public static int subarraySum(int[] nums, int k) {

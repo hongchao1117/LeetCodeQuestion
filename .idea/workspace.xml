@@ -7,17 +7,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="mod:fix error &amp;&amp; add some questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode题目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode题目.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/permuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/permuteUnique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/deleteDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/bytedanceInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/bytedanceInterview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/buildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/maxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/maxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/convertToTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/convertToTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/firstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/firstMissingPositive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxSlidingWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/numIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/numIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permuteUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/permuteUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/subarraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/subarraySum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Backtracking/translateNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Backtracking/translateNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/canFinish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Graphic/canFinish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedHashMap/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedHashMap/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/detectCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/detectCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/getRow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/getRow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/grayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Mathmatics/grayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Slidingwindow/minWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/LinkedListSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/LinkedListSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/quickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/addStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/longestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/removeInvalidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/removeInvalidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/validIPAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/validIPAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/fieldTest/FieldDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/fieldTest/FieldDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/checkSubTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/checkSubTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderSuccessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderSuccessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/inorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/subarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/subarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/inorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/inorderTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +79,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -73,7 +88,7 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -100,20 +115,7 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.firstMissingPositive">
-    <configuration name="calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.calculate" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.subarraySum">
     <configuration name="firstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.firstMissingPositive" />
       <module name="LeetCode题目" />
@@ -166,13 +168,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.subarraySum" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.firstMissingPositive" />
+        <item itemvalue="Application.subarraySum" />
+        <item itemvalue="Application.partitionDisjoint" />
         <item itemvalue="Application.minWindow" />
         <item itemvalue="Application.mergeSort" />
-        <item itemvalue="Application.partitionDisjoint" />
-        <item itemvalue="Application.calculate" />
+        <item itemvalue="Application.firstMissingPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -332,13 +347,10 @@
       <workItem from="1629120293989" duration="593000" />
       <workItem from="1629723772709" duration="1053000" />
       <workItem from="1629901137863" duration="508000" />
-      <workItem from="1630139214356" duration="1743000" />
-      <workItem from="1630225986753" duration="4530000" />
-      <workItem from="1630236654978" duration="596000" />
-      <workItem from="1630237731981" duration="4752000" />
-      <workItem from="1630662175520" duration="1540000" />
-      <workItem from="1630828474480" duration="5825000" />
-      <workItem from="1630912435261" duration="4906000" />
+      <workItem from="1630139214356" duration="3002000" />
+      <workItem from="1630208122348" duration="595000" />
+      <workItem from="1630330670249" duration="2589000" />
+      <workItem from="1630416029310" duration="2419000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -585,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627394285085</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="mod:fix error &amp;&amp; add some questions">
+      <created>1630142814998</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1630142814998</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
