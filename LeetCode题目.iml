@@ -31,6 +31,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/miaosha/miaosha-admin/miaosha-admin-web/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
