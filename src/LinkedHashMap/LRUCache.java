@@ -39,7 +39,7 @@ public class LRUCache {
     }
 }
 
-public class LRUCache {
+class LRUCache_ {
     class DLinkedNode {
         int key;
         int value;
@@ -60,7 +60,7 @@ public class LRUCache {
     private int capacity;
     private DLinkedNode head, tail;
 
-    public LRUCache(int capacity) {
+    public LRUCache_(int capacity) {
         this.size = 0;
         this.capacity = capacity;
         // 使用伪头部和伪尾部节点

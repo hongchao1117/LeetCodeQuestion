@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 /**
  * 给定一个数组，将数组中的元素向右移动 k 个位置，其中 k 是非负数。
  * <p>
@@ -33,7 +35,13 @@ public class rotate_array {
         }
     }
 
-    public void rotate_2(int[] nums, int k) {
+    public static void main(String[] args) {
+        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
+        rotate_2(nums, 3);
+        System.out.println(Arrays.toString(nums));
+    }
+
+    public static void rotate_2(int[] nums, int k) {
         k %= nums.length;
         int len = nums.length;
         swap(nums, 0, len - 1);
@@ -41,7 +49,7 @@ public class rotate_array {
         swap(nums, k, len - 1);
     }
 
-    private void swap(int[] nums, int l, int r) {
+    private static void swap(int[] nums, int l, int r) {
         while (r > l) {
             int temp = nums[r];
             nums[r--] = nums[l];
