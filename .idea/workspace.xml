@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="mod:fix error &amp;&amp; add some questions">
+    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/combinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathmatics/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathmatics/reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate_array.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -63,7 +63,7 @@
     <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1hlk35eBuK5dJwA3Q4meZQa1sgB" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -83,20 +83,20 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reverse">
-    <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.mergeSort" />
+  <component name="RunManager" selected="Application.multiply">
+    <configuration name="minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Slidingwindow.minWindow" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Slidingwindow.minWindow" />
+    <configuration name="multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.multiply" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Slidingwindow.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.reverse" />
+    <configuration name="rotate_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.rotate_array" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -156,24 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.reverse" />
-        <item itemvalue="Application.minWindow" />
+        <item itemvalue="Application.multiply" />
+        <item itemvalue="Application.rotate_array" />
         <item itemvalue="Application.subarraySum" />
         <item itemvalue="Application.partitionDisjoint" />
-        <item itemvalue="Application.mergeSort" />
+        <item itemvalue="Application.minWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -333,16 +322,16 @@
       <workItem from="1629120293989" duration="593000" />
       <workItem from="1629723772709" duration="1053000" />
       <workItem from="1629901137863" duration="508000" />
-      <workItem from="1630139214356" duration="3002000" />
-      <workItem from="1630208122348" duration="595000" />
-      <workItem from="1630330670249" duration="2589000" />
-      <workItem from="1630416029310" duration="2419000" />
-      <workItem from="1630505519483" duration="570000" />
-      <workItem from="1630590219427" duration="435000" />
-      <workItem from="1631435504880" duration="262000" />
-      <workItem from="1631435790903" duration="6529000" />
-      <workItem from="1631961000180" duration="2778000" />
-      <workItem from="1632298403594" duration="9972000" />
+      <workItem from="1630139214356" duration="1743000" />
+      <workItem from="1630225986753" duration="4530000" />
+      <workItem from="1630236654978" duration="596000" />
+      <workItem from="1630237731981" duration="4752000" />
+      <workItem from="1630662175520" duration="1540000" />
+      <workItem from="1630828474480" duration="5825000" />
+      <workItem from="1630912435261" duration="14169000" />
+      <workItem from="1631094094499" duration="4118000" />
+      <workItem from="1631169517891" duration="5000" />
+      <workItem from="1631171232437" duration="11566000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>
@@ -589,14 +578,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627394285085</updated>
     </task>
-    <task id="LOCAL-00036" summary="mod:fix error &amp;&amp; add some questions">
-      <created>1630142814998</created>
+    <task id="LOCAL-00036" summary="新增题目">
+      <created>1630985547915</created>
       <option name="number" value="00036" />
       <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1630142814998</updated>
+      <updated>1630985547915</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="新增题目">
+      <created>1631606096211</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1631606096211</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -679,11 +675,11 @@
     <MESSAGE value="新增部分LeetCode hot 100" />
     <MESSAGE value="新增LeetCode hot 100 + 剑指offer 的部分题目" />
     <MESSAGE value="新增LeetCode hot 100 的部分题目" />
-    <MESSAGE value="新增题目" />
     <MESSAGE value="addition" />
     <MESSAGE value="mod:fix error" />
     <MESSAGE value="mod:fix error &amp;&amp; add some questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod:fix error &amp;&amp; add some questions" />
+    <MESSAGE value="新增题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增题目" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -697,7 +693,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/constructArr.java</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -804,6 +800,11 @@
           <url>file://$PROJECT_DIR$/src/Array/firstMissingPositive.java</url>
           <line>5</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/rotate_array.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

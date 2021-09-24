@@ -1,8 +1,5 @@
 package Tree;
 
-import java.util.HashMap;
-import java.util.Stack;
-
 public class buildTree {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
 //        TreeNode root = rec(preorder,0,preorder.length-1,inorder,0,inorder.length-1);
@@ -24,12 +21,12 @@ public class buildTree {
     }
 
     private TreeNode getRes(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd) {
-       if (preStart>preEnd || inStart>inEnd) return null;
-       TreeNode root= new TreeNode(preorder[preStart]);
+        if (preStart > preEnd || inStart > inEnd) return null;
+        TreeNode root = new TreeNode(preorder[preStart]);
         for (int i = inStart; i <= inEnd; i++) {
-            if (preorder[preStart]==inorder[i]){
-                root.left = getRes(preorder,preStart+1,i-inStart+preStart,inorder,inStart,i-1);
-                root.right = getRes(preorder,i-inStart+preStart+1,preEnd,inorder,i+1,inEnd);
+            if (preorder[preStart] == inorder[i]) {
+                root.left = getRes(preorder, preStart + 1, i - inStart + preStart, inorder, inStart, i - 1);
+                root.right = getRes(preorder, i - inStart + preStart + 1, preEnd, inorder, i + 1, inEnd);
             }
         }
         return root;

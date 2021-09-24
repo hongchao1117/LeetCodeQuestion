@@ -2,10 +2,10 @@ package LinkedList;
 
 public class insertionSortList {
     public ListNode insertionSortList(ListNode head) {
-        ListNode dummy = new ListNode(0),pre;
+        ListNode dummy = new ListNode(0), pre;
         dummy.next = head;
-        while (head!=null && head.next!=null){
-            if (head.val<=head.next.val){
+        while (head != null && head.next != null) {
+            if (head.val <= head.next.val) {
                 head = head.next;
                 continue;
             }
@@ -13,10 +13,10 @@ public class insertionSortList {
             while (pre.next.val < head.next.val) {
                 pre = pre.next;
             }
-                ListNode cur = head.next;
-                head.next = cur.next;
-                cur.next = pre.next;
-                pre.next = cur;
+            ListNode cur = head.next;
+            head.next = cur.next;
+            cur.next = pre.next;
+            pre.next = cur;
         }
         return dummy.next;
     }
