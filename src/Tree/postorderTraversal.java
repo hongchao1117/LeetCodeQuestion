@@ -1,32 +1,33 @@
 package Tree;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
-import java.util.Stack;
 
 public class postorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if (root == null)
-            return list;
-        TreeNode temp = root;
-        TreeNode pre = null;
-        Stack<TreeNode> stack = new Stack<>();
-        while (!stack.isEmpty() || temp != null) {
-            while (temp != null) {
-                stack.push(temp);
-                temp = temp.left;
-            }
-            temp = stack.peek();
-            if (temp.right == null || temp.right == pre) {
-                list.add(temp.val);
-                stack.pop();
-                pre = temp;
-                temp = null;
+        TreeNode p = root, r = null;
+        List<Integer> ans = new ArrayList<>();
+        Deque<TreeNode> s = new ArrayDeque<>();
+        while (!s.isEmpty() || p != null) {
+            if (p != null) {
+                s.push(p);
+                p = p.left;
             } else {
-                temp = temp.right;
+                p = s.peek();
+                if (p.right == null || p.right == r) {
+                    ans.add(p.val);
+                    r = p;
+                    s.pop();
+                    p = null;
+                } else
+                    p = p.right;
+
             }
+
         }
-        return list;
+
+        return ans;
     }
 }
