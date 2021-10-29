@@ -7,10 +7,103 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="新增题目">
+    <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/rotate_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/lengthOfLongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isBalanced.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/isBalanced.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/dp/numDecodings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/numDecodings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedHashMap/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/largestPerimeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/largestPerimeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/removeKdigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/removeKdigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
     </list>
+    <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/GenerateParenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/LinkedListSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/SortedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/addStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/addTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/buildTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/bytedanceInterview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/calculate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/canThreePartsEqualSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/checkSubTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/climbStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/combinationSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/compress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/constructArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/convertToTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/countSubstrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/dailyTemperatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/deleteDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findBottomLeftValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findCircleNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findKthLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findMaxAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findNumberIn2DArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/findRepeatedDnaSequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/firstMissingPositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/inorderSuccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/inorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/intersection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/isCompleteTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/isInterleave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/isValidSudoku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/kthSmallest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/kthSmallest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/largestNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/lengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/letterCombinations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/listOfDepth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/longestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/longestCommonSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/longestPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/lowestCommonAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/maxPathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/maxSlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/maximalRectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/minWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/numDecodings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/oddEvenList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/permuteUnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/postorderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/quickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/removeKdigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/reorganizeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/reverseKGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/reverseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/rightSideView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/setZeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/sortedListToBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/spiralOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/titleToNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/translateNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/transpose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/validateStackSequences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/waysToChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9,_3_23_下午_[Default_Changelist]/zigzagLevelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_9_9__3_23___Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/lowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/maxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/searchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/sortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/sortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/addStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/addStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/groupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/myAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/myAtoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/strStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/strStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/maximalSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/maximalSquare.java" afterDir="false" />
+    </list>
+    <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +147,35 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="9" end1="10" start2="9" end2="92" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="11" end1="12" start2="93" end2="104" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="13" end1="13" start2="105" end2="106" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="55" end1="55" start2="148" end2="177" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="79" end1="80" start2="201" end2="203" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="85" end1="86" start2="208" end2="209" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="92" end1="95" start2="215" end2="218" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="98" end1="99" start2="221" end2="222" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="106" end1="108" start2="229" end2="231" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="111" end1="112" start2="234" end2="235" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="119" end1="121" start2="242" end2="244" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="124" end1="125" start2="247" end2="248" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="158" end1="158" start2="281" end2="292" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="160" end1="162" start2="294" end2="297" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="163" end1="165" start2="298" end2="299" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="175" end1="175" start2="309" end2="311" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="334" end1="334" start2="470" end2="479" changelist="a1047b84-be20-4994-b355-afd7e12f71c1" />
+        <range start1="587" end1="589" start2="732" end2="734" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+        <range start1="592" end1="593" start2="737" end2="773" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+        <range start1="594" end1="595" start2="774" end2="775" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+        <range start1="681" end1="682" start2="861" end2="865" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+        <range start1="710" end1="711" start2="893" end2="894" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+        <range start1="807" end1="807" start2="990" end2="995" changelist="81b353ec-1a65-4336-9293-81490fda3d21" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -77,26 +199,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dp" />
+    <property name="introduce.parameter.lambda" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../设计模式" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.multiply">
-    <configuration name="minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Slidingwindow.minWindow" />
+  <component name="RunManager" selected="Application.findKthLargest">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Slidingwindow.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +227,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.multiply" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="partitionDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.partitionDisjoint" />
+    <configuration name="findKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.findKthLargest" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.lengthOfLongestSubstring" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +279,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.multiply" />
-        <item itemvalue="Application.rotate_array" />
+        <item itemvalue="Application.findKthLargest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.lengthOfLongestSubstring" />
         <item itemvalue="Application.subarraySum" />
-        <item itemvalue="Application.partitionDisjoint" />
-        <item itemvalue="Application.minWindow" />
+        <item itemvalue="Application.rotate_array" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +307,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="" />
+      <changelist id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
+      <changelist id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="" />
       <created>1591691154798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -332,6 +468,15 @@
       <workItem from="1631094094499" duration="4118000" />
       <workItem from="1631169517891" duration="5000" />
       <workItem from="1631171232437" duration="11566000" />
+      <workItem from="1633487287737" duration="18013000" />
+      <workItem from="1633590742655" duration="26232000" />
+      <workItem from="1634104687432" duration="8286000" />
+      <workItem from="1634374565713" duration="788000" />
+      <workItem from="1634547210901" duration="1674000" />
+      <workItem from="1634609853148" duration="2618000" />
+      <workItem from="1634783135113" duration="323000" />
+      <workItem from="1634798505961" duration="613000" />
+      <workItem from="1634902565407" duration="24044000" />
     </task>
     <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
       <created>1599577027816</created>

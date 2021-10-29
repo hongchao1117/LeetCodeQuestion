@@ -1,7 +1,6 @@
 package LinkedHashMap;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -31,8 +30,7 @@ public class LRUCache {
         } else if (map.size() == cap) {
 //           int firstKey = map.entrySet().iterator().next().getKey();
 //            Map.Entry<Integer, Integer> iterator = map.entrySet().iterator().next()；
-            Iterator<Integer> iterator = map.keySet().iterator();
-            int firstKey = iterator.next();
+            int firstKey = map.keySet().iterator().next();
             map.remove(firstKey);
         }
         map.put(key, value);

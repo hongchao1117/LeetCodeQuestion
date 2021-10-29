@@ -11,6 +11,13 @@ public class removeKdigits {
         System.out.println(res);
     }
 
+    /**
+     * 成为最小数
+     *
+     * @param num
+     * @param k
+     * @return
+     */
     public static String removeKDigits(String num, int k) {
         StringBuilder s = new StringBuilder(num);
         for (int i = 0; i < k; i++) {
@@ -23,4 +30,25 @@ public class removeKdigits {
         }
         return "".equals(s.toString()) ? "0" : s.toString();
     }
+
+    /**
+     * 成为最大数
+     *
+     * @param num
+     * @param k
+     * @return
+     */
+    public static String removeKDigits_max(String num, int k) {
+        StringBuilder s = new StringBuilder(num);
+        for (int i = 0; i < k; i++) {
+            int index = 0;
+            for (int j = 1; j < s.length() && s.charAt(j - 1) < s.charAt(j); j++) {
+                index = j;
+            }
+            s.delete(index, index + 1);
+            while (s.length() > 1 && s.charAt(0) == '0') s.delete(0, 1);
+        }
+        return s.toString();
+    }
+
 }

@@ -1,35 +1,45 @@
 package Test;
 
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args) {
-//        long timestamp = System.currentTimeMillis();
-//        Calendar calendar = Calendar.getInstance();
-//        int year = calendar.get(Calendar.YEAR);
-//        int month = calendar.get(Calendar.MONTH);
-//        int day = calendar.get(Calendar.DATE);
-//        Date date = new Date(year,month,day);
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat();
 
-//        System.out.println(simpleDateFormat.format(date));
-//        String date = TimeStamp2Date(timestamp);
-//        Date nowTime = getDateByString(date);
-//        Date endTime = getDateByString("15:00:00");
-//        System.out.println(nowTime.before(endTime));
+        Scanner scanner = new Scanner(System.in);
+        String line = scanner.nextLine().trim();
+        String[] array1 = line.split(",");
+        String[] array2 = line.split(",");
+        int[] nums1 = new int[array1.length];
+        int[] nums2 = new int[array2.length];
+        for (int i = 0; i < array1.length; i++) {
+            nums1[i] = Integer.parseInt(array1[i]);
+        }
+        for (int i = 0; i < array2.length; i++) {
+            nums2[i] = Integer.parseInt(array2[i]);
+        }
 
-//        Date date = new Date(); //取时间
-//        Calendar calendar = new GregorianCalendar();
-//        calendar.setTime(date);
-//        calendar.add(calendar.DATE, 1); //把日期往后增加一天,整数  往后推,负数往前移动
-//        date = calendar.getTime(); //这个时间就是日期往后推一天的结果
-//        System.out.println(date);
-
+        scanner.close();
     }
 
-    private static String ReverseString(String s) {
-        if (s == null || s.length()<=1)
-            return s;
-        else
-            return ReverseString(s.substring(1)) + s.charAt(0);
+    public static int[] getSortArray(int[] arr1, int[] arr2) {
+        if (arr1 == null) return arr2;
+        if (arr2 == null) return arr1;
+        int len1 = arr1.length, len2 = arr2.length;
+        int i = 0, j = 0, count = 0;
+        int[] nums = new int[len1 + len2];
+        while (i < len1 && j < len2) {
+            if (arr1[i] < arr2[j]) {
+                nums[count++] = arr1[i++];
+            } else {
+                nums[count++] = arr2[j++];
+            }
+        }
+        while (i < len1) {
+            nums[count++] = arr1[i++];
+        }
+        while (j < len2) {
+            nums[count++] = arr2[j++];
+        }
+        return nums;
     }
-
 }
