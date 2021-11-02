@@ -7,31 +7,34 @@ public class sortList {
 
     private ListNode mergeSort(ListNode head) {
         if (head == null || head.next == null) return head;
-        ListNode slow = head, fast = head.next.next, l, r;
+        ListNode slow = head, fast = head.next.next;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        r = mergeSort(slow.next);
+        ListNode r = mergeSort(slow.next);
         slow.next = null;
-        l = mergeSort(head);
-        return megerList(l, r);
+        ListNode l = mergeSort(head);
+        return merge(l, r);
+
     }
 
-    private ListNode megerList(ListNode l, ListNode r) {
-        ListNode tempHead = new ListNode(-1);
-        ListNode p = tempHead;
+    private ListNode merge(ListNode l, ListNode r) {
+        if (l == null) return r;
+        if (r == null) return l;
+        ListNode dummyNode = new ListNode(-1);
+        ListNode temp = dummyNode;
         while (l != null && r != null) {
             if (l.val < r.val) {
-                p.next = l;
+                temp.next = l;
                 l = l.next;
             } else {
-                p.next = r;
+                temp.next = r;
                 r = r.next;
             }
-            p = p.next;
+            temp = temp.next;
         }
-        p.next = l == null ? r : l;
-        return tempHead.next;
+        temp.next = l == null ? r : l;
+        return dummyNode.next;
     }
 }

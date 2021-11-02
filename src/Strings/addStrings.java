@@ -10,7 +10,6 @@ public class addStrings {
 
         Object[] objects = s.split("");
         System.out.println(Arrays.toString(objects));
-
     }
 
     public String addStrings(String num1, String num2) {

@@ -55,7 +55,7 @@ public class maxSlidingWindow {
         Deque<Integer> deque = new LinkedList<>();
         int[] res = new int[len - k + 1];
         for (int i = 0; i < k; i++) {
-            while (!deque.isEmpty() || deque.peekLast() < nums[i]) {
+            while (!deque.isEmpty() && deque.peekLast() < nums[i]) {
                 deque.removeLast();
             }
             deque.add(nums[i]);
@@ -65,7 +65,7 @@ public class maxSlidingWindow {
             if (nums[i - k] == deque.peekFirst()) {
                 deque.removeFirst();
             }
-            while (!deque.isEmpty() || deque.peekLast() < nums[i]) {
+            while (!deque.isEmpty() && deque.peekLast() < nums[i]) {
                 deque.removeLast();
             }
             deque.add(nums[i]);
