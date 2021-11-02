@@ -5,7 +5,7 @@ public class HeapSort {
         for (int i = nums.length / 2 - 1; i >= 0; i--) {
             adjustHeap(nums, i, nums.length);
         }
-        for (int length = nums.length; length > 0; length--) {
+        for (int length = nums.length - 1; length > 0; length--) {
             swap(nums, 0, length);
             adjustHeap(nums, 0, length);
         }

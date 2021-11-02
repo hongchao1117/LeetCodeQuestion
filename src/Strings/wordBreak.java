@@ -1,7 +1,6 @@
 package Strings;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -14,16 +13,17 @@ public class wordBreak {
         List<String> wordDict = new ArrayList<>();
         wordDict.add("leet");
         wordDict.add("code");
-        wordBreak(s,wordDict);
+        wordBreak(s, wordDict);
     }
+
     public static boolean wordBreak(String s, List<String> wordDict) {
 //        //可以类比背包问题
         int len = s.length();
-        boolean[] flag = new boolean[len+1];
+        boolean[] flag = new boolean[len + 1];
         flag[0] = true;
         for (int i = 1; i <= len; i++) {
             for (int j = 0; j < i; j++) {
-                if (flag[j] && wordDict.contains(s.substring(j,i))){
+                if (flag[j] && wordDict.contains(s.substring(j, i))) {
                     flag[i] = true;
                     break;
                 }
@@ -31,5 +31,27 @@ public class wordBreak {
         }
         return flag[len];
 
+    }
+
+    List<String> res = new ArrayList<>();
+
+    public List<String> wordBreak_2(String s, List<String> wordDict) {
+        getRes(0, s, wordDict, new ArrayList<>());
+        return res;
+    }
+
+    private void getRes(int index, String s, List<String> wordDict, List<String> cur) {
+        if (index >= s.length()) {
+            res.add(String.join(" ", cur));
+            return;
+        }
+        for (String word : wordDict) {
+            if (index + word.length() <= s.length()
+                    && s.substring(index, index + word.length()).equals(word)) {
+                cur.add(word);
+                getRes(index + word.length(), s, wordDict, cur);
+                cur.remove(cur.size() - 1);
+            }
+        }
     }
 }

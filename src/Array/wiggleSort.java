@@ -16,6 +16,6 @@ public class wiggleSort {
                 newArr[count++] = nums[right--];
             }
         }
-        System.arraycopy(newArr, 0, nums, 0, right + 1);
+        System.arraycopy(newArr, 0, nums, 0, newArr.length);
     }
 }
