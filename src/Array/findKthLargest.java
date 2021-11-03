@@ -40,30 +40,34 @@ public class findKthLargest {
 
     public int findKthLargest_quick(int[] nums, int k) {
         k = nums.length - k;
-        quickSort(nums, 0, nums.length - 1, k);
+        quickSort(nums, k, 0, nums.length - 1);
         return nums[k];
     }
 
-    private void quickSort(int[] nums, int left, int right, int k) {
-        if (left >= right) return;
-        int l = left;
-        int r = right;
+    private void quickSort(int[] nums, int k, int left, int right) {
+        if (left <= right) return;
+        int l = left, r = right;
         int base = nums[left];
         while (l < r) {
-            while (l < r && nums[r] >= base) r--;
-            while (l < r && nums[l] <= base) l++;
+            if (l < r && nums[r] >= base) {
+                r--;
+            }
+            if (l < r && nums[l] <= base) {
+                l++;
+            }
             if (l < r) {
                 swap(nums, l, r);
             }
         }
-        swap(nums, left, l);
+        swap(nums, left, r);
         if (l == k) {
             return;
         } else if (l > k) {
-            quickSort(nums, left, l - 1, k);
+            quickSort(nums, k, left, l - 1);
         } else {
-            quickSort(nums, l + 1, right, k);
+            quickSort(nums, k, l + 1, right);
         }
+
     }
 
     public int findKthLargest_heap(int[] nums, int k) {

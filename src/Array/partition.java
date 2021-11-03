@@ -2,50 +2,42 @@ package Array;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 
 public class partition {
-    public static void main(String[] args) {
-        System.out.println(partition("aab"));
+    public List<List<String>> partition(String s) {
+        List<List<String>> list = new ArrayList<>();
+        dfs(s, 0, new ArrayList<String>(), list);
+        return list;
     }
 
-    public static List<List<String>> partition(String s) {
-        return partitionHelper(s,0);
-    }
-
-    private static List<List<String>> partitionHelper(String s, int start) {
-        //递归出口
-        if (start==s.length()){
-            List<String> list = new ArrayList<>();
-            List<List<String>> res = new ArrayList<>();
-            res.add(list);
-            return res;
+    private void dfs(String s, int start, ArrayList<String> path, List<List<String>> list) {
+        if (start == s.length()) {
+            list.add(new ArrayList<>(path));
+            return;
         }
-        List<List<String>> res = new ArrayList<>();
         for (int i = start; i < s.length(); i++) {
-            //当前切割后是回文串才考虑
-            if (isPalindrome(s.substring(start,i+1))){
-                String left = s.substring(start,i+1);
-                //遍历后边字符串的所有结果，将当前的字符串加到头部
-                for (List<String> l:partitionHelper(s,i+1)) {
-                    l.add(0,left);
-                    res.add(l);
-                }
+            String s1 = s.substring(start, i + 1);
+            if (!isPalindrome(s1)) {
+                continue;
             }
-
+            path.add(s1);
+            dfs(s, i + 1, path, list);
+            path.remove(path.size() - 1);
         }
-        return res;
     }
 
-    private static boolean isPalindrome(String s) {
-        int i=0;
-        int j = s.length()-1;
-        while (i<j){
-            if (s.charAt(i)!=s.charAt(j)){
+    private boolean isPalindrome(String s) {
+        if (s == null || s.length() <= 1) {
+            return true;
+        }
+        int left = 0;
+        int right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
                 return false;
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
         return true;
     }
