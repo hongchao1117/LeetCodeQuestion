@@ -7,7 +7,7 @@ package Strings;
  */
 public class removeKdigits {
     public static void main(String[] args) {
-        String res = removeKDigits("1432219", 3);
+        String res = removeKDigits_max("441", 1);
         System.out.println(res);
     }
 
@@ -19,16 +19,19 @@ public class removeKdigits {
      * @return
      */
     public static String removeKDigits(String num, int k) {
-        StringBuilder s = new StringBuilder(num);
+        if (num.length() == k) return "0";
+        StringBuilder sb = new StringBuilder(num);
         for (int i = 0; i < k; i++) {
             int index = 0;
-            for (int j = 1; j < s.length() && s.charAt(j) >= s.charAt(j - 1); j++) {
+            for (int j = 1; j < sb.length() && sb.charAt(j) >= sb.charAt(j - 1); j++) {
                 index = j;
             }
-            s.delete(index, index + 1);
-            while (s.length() > 1 && s.charAt(0) == '0') s.delete(0, 1);
+            sb.delete(index, index + 1);
+            while (sb.length() > 1 && sb.charAt(0) == '0') {
+                sb.delete(0, 1);
+            }
         }
-        return "".equals(s.toString()) ? "0" : s.toString();
+        return "".equals(sb.toString()) ? "0" : sb.toString();
     }
 
     /**
@@ -39,16 +42,19 @@ public class removeKdigits {
      * @return
      */
     public static String removeKDigits_max(String num, int k) {
-        StringBuilder s = new StringBuilder(num);
+        if (num.length() == k) return "0";
+        StringBuilder sb = new StringBuilder(num);
         for (int i = 0; i < k; i++) {
             int index = 0;
-            for (int j = 1; j < s.length() && s.charAt(j - 1) < s.charAt(j); j++) {
+            for (int j = 1; j < sb.length() && sb.charAt(j) <= sb.charAt(j - 1); j++) {
                 index = j;
             }
-            s.delete(index, index + 1);
-            while (s.length() > 1 && s.charAt(0) == '0') s.delete(0, 1);
+            sb.delete(index, index + 1);
+            while (sb.length() > 1 && sb.charAt(0) == '0') {
+                sb.delete(0, 1);
+            }
         }
-        return s.toString();
+        return "".equals(sb.toString()) ? "0" : sb.toString();
     }
 
 }

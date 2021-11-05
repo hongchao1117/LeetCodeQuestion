@@ -3,21 +3,14 @@ package Tree;
 public class flatten {
     public void flatten(TreeNode root) {
         if (root == null) return;
-        while (root != null) {
-            if (root.left == null) {
-                root = root.right;
-            } else {
-                TreeNode pre = root.left;
-                while (pre.right != null) {
-                    pre = pre.right;
-                }
-                pre.right = root.right;
-                root.right = root.left;
-                root.left = null;
-                root = root.right;
-
-            }
+        flatten(root.left);
+        flatten(root.right);
+        TreeNode temp = root.right;
+        root.right = root.left;
+        root.left = null;
+        while (root.right != null) {
+            root = root.right;
         }
-
+        root.right = temp;
     }
 }
