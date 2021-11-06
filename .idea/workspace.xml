@@ -9,21 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findKthLargest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/partition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/partition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/searchRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Sort/quickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/removeKdigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/removeKdigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/chineseNum2Int.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/flatten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/flatten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/postorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/postorderTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/partition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/spiralOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/spiralOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/removeKdigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/removeKdigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/flatten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/flatten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canArrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canArrange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -103,17 +91,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Interview" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.removeKdigits">
-    <configuration name="DidiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.DidiTest" />
+  <component name="RunManager" selected="Application.mergeAllNums">
+    <configuration name="TestTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interview.TestTimer" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="Interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chinese2Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.chinese2Int" />
+    <configuration name="mergeAllNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.mergeAllNums" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergeAllNums" />
+        <item itemvalue="Application.TestTimer" />
         <item itemvalue="Application.removeKdigits" />
         <item itemvalue="Application.twoNumsFindKth" />
         <item itemvalue="Application.canArrange" />
-        <item itemvalue="Application.DidiTest" />
-        <item itemvalue="Application.chinese2Int" />
       </list>
     </recent_temporary>
   </component>
@@ -373,21 +364,7 @@
       <workItem from="1634902565407" duration="61675000" />
       <workItem from="1635754622601" duration="4086000" />
       <workItem from="1635769386819" duration="41954000" />
-      <workItem from="1636110697809" duration="4433000" />
-    </task>
-    <task id="LOCAL-00001" summary="修改判断是否是 平衡树">
-      <created>1599577027816</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1599577027816</updated>
-    </task>
-    <task id="LOCAL-00002" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
-      <created>1603720330227</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1603720330227</updated>
+      <workItem from="1636110697809" duration="10582000" />
     </task>
     <task id="LOCAL-00003" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
       <created>1603720418872</created>
@@ -711,7 +688,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635920777496</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add：fix">
+      <created>1636115687223</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1636115687223</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add：fix">
+      <created>1636115705712</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1636115705712</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add：fix">
+      <created>1636115780495</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1636115780495</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
