@@ -1,7 +1,5 @@
 package Tree;
 
-import Tree.test.Node;
-
 import java.util.ArrayList;
 
 /**
@@ -10,16 +8,16 @@ import java.util.ArrayList;
  */
 public class treeToDoublyList {
     public TreeNode treeToDoublyList(TreeNode root) {
-        if (root==null) return root;
+        if (root == null) return root;
         ArrayList<TreeNode> list = new ArrayList<>();
-        midOrder(list,root);
+        midOrder(list, root);
         TreeNode head = list.get(0);
         TreeNode pre = head;
         for (int i = 1; i < list.size(); i++) {
             TreeNode node = list.get(i);
             pre.right = node;
             node.left = pre;
-            pre = pre.right;
+            pre = node;
         }
         pre.right = head;
         head.left = pre;
@@ -27,10 +25,10 @@ public class treeToDoublyList {
     }
 
     private void midOrder(ArrayList<TreeNode> list, TreeNode root) {
-        if (root.left!=null)
-            midOrder(list,root.left);
+        if (root.left != null)
+            midOrder(list, root.left);
         list.add(root);
-        if (root.right!=null)
-            midOrder(list,root.right);
+        if (root.right != null)
+            midOrder(list, root.right);
     }
 }

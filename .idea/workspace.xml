@@ -9,9 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canArrange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/canArrange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/LinkedList/removeNthFromEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/removeNthFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/treeToDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/treeToDoublyList.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -364,21 +362,7 @@
       <workItem from="1634902565407" duration="61675000" />
       <workItem from="1635754622601" duration="4086000" />
       <workItem from="1635769386819" duration="41954000" />
-      <workItem from="1636110697809" duration="10582000" />
-    </task>
-    <task id="LOCAL-00003" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
-      <created>1603720418872</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603720418872</updated>
-    </task>
-    <task id="LOCAL-00004" summary="新增部分LeetCode hot 100">
-      <created>1604409606096</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604409606096</updated>
+      <workItem from="1636110697809" duration="12044000" />
     </task>
     <task id="LOCAL-00005" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
       <created>1604498901593</created>
@@ -709,7 +693,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636115780495</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add：fix">
+      <created>1636191285523</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1636191285523</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add：fix">
+      <created>1636198145561</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1636198145561</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
