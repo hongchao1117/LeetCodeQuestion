@@ -45,29 +45,28 @@ public class findKthLargest {
     }
 
     private void quickSort(int[] nums, int k, int left, int right) {
-        if (left <= right) return;
+        if (left >= right) return;
         int l = left, r = right;
         int base = nums[left];
         while (l < r) {
-            if (l < r && nums[r] >= base) {
+            while (l < r && base <= nums[r]) {
                 r--;
             }
-            if (l < r && nums[l] <= base) {
+            while (l < r && base >= nums[l]) {
                 l++;
             }
             if (l < r) {
                 swap(nums, l, r);
             }
         }
-        swap(nums, left, r);
+        swap(nums, left, l);
         if (l == k) {
             return;
-        } else if (l > k) {
-            quickSort(nums, k, left, l - 1);
-        } else {
+        } else if (l < k) {
             quickSort(nums, k, l + 1, right);
+        } else {
+            quickSort(nums, k, left, l - 1);
         }
-
     }
 
     public int findKthLargest_heap(int[] nums, int k) {

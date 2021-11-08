@@ -9,7 +9,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/treeToDoublyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/treeToDoublyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxAreaOfIsland.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/maxAreaOfIsland.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/TestTimer$MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/TestTimer$MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/TestTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/TestTimer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/treeToDoublyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/treeToDoublyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/trap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/trap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/largestValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/largestValues.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -96,7 +102,7 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mergeAllNums">
+  <component name="RunManager" selected="Application.TestTimer">
     <configuration name="TestTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interview.TestTimer" />
       <module name="LeetCode题目" />
@@ -175,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mergeAllNums" />
         <item itemvalue="Application.TestTimer" />
+        <item itemvalue="Application.mergeAllNums" />
         <item itemvalue="Application.removeKdigits" />
         <item itemvalue="Application.twoNumsFindKth" />
         <item itemvalue="Application.canArrange" />
@@ -362,14 +368,7 @@
       <workItem from="1634902565407" duration="61675000" />
       <workItem from="1635754622601" duration="4086000" />
       <workItem from="1635769386819" duration="41954000" />
-      <workItem from="1636110697809" duration="12044000" />
-    </task>
-    <task id="LOCAL-00005" summary="新增LeetCode hot 100 + 剑指offer 的部分题目">
-      <created>1604498901593</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604498901593</updated>
+      <workItem from="1636110697809" duration="22571000" />
     </task>
     <task id="LOCAL-00006" summary="新增LeetCode hot 100 的部分题目">
       <created>1605624756929</created>
@@ -707,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636198145561</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add：fix">
+      <created>1636198993420</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1636198993420</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
