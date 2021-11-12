@@ -10,8 +10,8 @@ public class TestTimer {
     public static void main(String[] args) {
         Timer t1 = new Timer();
         MyTask myTask = new MyTask();
-        t1.schedule(myTask, 3000);
-        t1.schedule(myTask, 5000, 1);
+//        t1.schedule(myTask, 3000);
+        t1.schedule(myTask, 1000, 10 * 1000);
     }
 
     private static class MyTask extends TimerTask {

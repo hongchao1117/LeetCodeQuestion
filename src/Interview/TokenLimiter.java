@@ -37,4 +37,14 @@ public class TokenLimiter {
         return blockingQueue.poll() != null;
     }
 
+    public static void main(String[] args) throws InterruptedException {
+        TokenLimiter limiter = new TokenLimiter(1000, TimeUnit.SECONDS, 1000);
+        while (true) {
+            new Thread(() -> {
+                System.out.println(limiter.tryAcquire());
+            }).start();
+            Thread.sleep(1);
+        }
+    }
+
 }

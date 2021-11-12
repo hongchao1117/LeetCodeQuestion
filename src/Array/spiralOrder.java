@@ -8,7 +8,6 @@ public class spiralOrder {
         List<Integer> list = new ArrayList<>();
         int left = 0, right = matrix[0].length - 1, start = 0, end = matrix.length - 1;
         while (true) {
-
             for (int i = left; i <= right; i++) {
                 list.add(matrix[start][i]);
             }
