@@ -8,24 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：fix">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/MyRateLimiter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/TokenBucketRateLimiter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/limiter/TokenBucket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/limiter/TokenProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Strings/permutation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/dp/minInsertions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/minimumTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/minimumTotal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findMedianSortedArrays.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findPeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findPeakElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/spiralOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/limiter/FlowLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Interview/limiter/Limiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Test/test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Test/test02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findMedianSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findPeakElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/mergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/mergeKLists.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -385,14 +371,7 @@
       <workItem from="1636602888058" duration="14383000" />
       <workItem from="1636856676430" duration="1229000" />
       <workItem from="1636955624469" duration="3772000" />
-      <workItem from="1636964641493" duration="15313000" />
-    </task>
-    <task id="LOCAL-00012" summary="新增题目">
-      <created>1607175634718</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1607175634718</updated>
+      <workItem from="1636964641493" duration="15923000" />
     </task>
     <task id="LOCAL-00013" summary="新增题目">
       <created>1608819888015</created>
@@ -730,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637376203179</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="add：fix">
+      <created>1637378339149</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1637378339149</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
