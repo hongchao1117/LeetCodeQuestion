@@ -1,7 +1,7 @@
 package Sort;
 
 public class quickSort {
-    public void quickSorting(int[] nums, int start, int end) {
+    private void quickSorting(int[] nums, int start, int end) {
         if (start >= end) return;
         int left = start, right = end;
         int standard = nums[left];
