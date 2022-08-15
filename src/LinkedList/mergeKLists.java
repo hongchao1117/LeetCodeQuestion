@@ -6,8 +6,8 @@ public class mergeKLists {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) return null;
         ListNode res = null;
-        for (int i = 0; i < lists.length; i++) {
-            res = mergeTwoList(res, lists[i]);
+        for (ListNode list : lists) {
+            res = mergeTwoList(res, list);
         }
         return res;
     }

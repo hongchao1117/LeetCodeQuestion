@@ -29,9 +29,8 @@ public class generateParenthesis {
         if (count1 == n && count2 == n)
             res.add(s);
         if (count1 >= count2) {
-            String string = new String(s);
             generate(res, s + "(", count1 + 1, count2, n);
-            generate(res, string + ")", count1, count2 + 1, n);
+            generate(res, s + ")", count1, count2 + 1, n);
         }
 
     }

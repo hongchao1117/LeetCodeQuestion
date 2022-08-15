@@ -2,7 +2,6 @@ package Array;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TreeSet;
 
 public class permute {
     public static void main(String[] args) {
@@ -10,7 +9,7 @@ public class permute {
         System.out.println(permute(arr).toString());
     }
 
-    public static List<List<Integer>> permute(int[] nums) {
+    private static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
         if (nums.length <= 0) return res;
@@ -20,7 +19,7 @@ public class permute {
 
     private static void permuteHelper(List<List<Integer>> res, List<Integer> tempList, int[] nums, int index) {
         if (index == nums.length) {
-           res.add(new ArrayList<>(tempList));
+            res.add(new ArrayList<>(tempList));
             return;//返回上一层递归 or 直接返回
         } else {
             for (int i = 0; i < nums.length; i++) {
