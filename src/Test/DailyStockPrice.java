@@ -52,7 +52,7 @@ Note that the cargo must be shipped in the order given, so using a ship of capac
 */
 // f(Cap) <= n < f(Cap - 1)
 
-    public static int minCapacity(int[] weights, int n) {
+    private static int minCapacity(int[] weights, int n) {
         if (weights == null || weights.length == 0 || n <= 0) return -1;
         //binary search 找到左右边界
         //左边界为 单个max重量，右边界为 weights中的元素之和
