@@ -7,14 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add：some interview code">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_6__2_45___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_6__2_45___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_14__4_07___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_14__4_07___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="fix:reformat code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/removeDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/removeDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/strStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/strStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/searchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/searchInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GreedyAlo/canJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreedyAlo/canJump.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -163,13 +159,14 @@
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HC497/IdeaProjects/JavaDemo/LeetCodeQuestion&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HC497/IdeaProjects/JavaDemo/LeetCodeQuestion",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Interview" />
@@ -456,14 +453,9 @@
       <workItem from="1660532649179" duration="4861000" />
       <workItem from="1662432008331" duration="144000" />
       <workItem from="1662432179667" duration="196000" />
-      <workItem from="1662521872072" duration="1741000" />
-    </task>
-    <task id="LOCAL-00022" summary="mod:fix error">
-      <created>1624371643824</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1624371643824</updated>
+      <workItem from="1662521872072" duration="2812000" />
+      <workItem from="1662538819278" duration="5379000" />
+      <workItem from="1662600187799" duration="841000" />
     </task>
     <task id="LOCAL-00023" summary="addition">
       <created>1624978793164</created>
@@ -801,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660529956587</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="fix:reformat code">
+      <created>1662523865748</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1662523865749</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -895,7 +894,8 @@
     <MESSAGE value="add：some questions" />
     <MESSAGE value="add：fix" />
     <MESSAGE value="add：some interview code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add：some interview code" />
+    <MESSAGE value="fix:reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix:reformat code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -912,11 +912,6 @@
           <url>file://$PROJECT_DIR$/src/Array/constructArr.java</url>
           <line>14</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Stack/longestValidParentheses.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/searchRange.java</url>
@@ -1025,6 +1020,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Array/canArrange.java">
