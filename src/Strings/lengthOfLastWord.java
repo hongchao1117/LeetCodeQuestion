@@ -3,7 +3,7 @@ package Strings;
 public class lengthOfLastWord {
     public int lengthOfLastWord(String s) {
         if (s==null || s.length()==0)    return 0;
-        String[] strings = s.split(" ");
+        String[] strings = s.trim().split(" ");
 
         if (strings.length==0)
             return 0;
