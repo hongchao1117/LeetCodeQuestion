@@ -21,8 +21,7 @@ public class searchInsert {
                 right = mid - 1;
         }
         return left;
-        /**int res = Arrays.binarySearch(nums,target);
-         return res>=0?res:-res-1;*/
+
 
     }
 }
