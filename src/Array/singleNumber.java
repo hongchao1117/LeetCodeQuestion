@@ -1,9 +1,5 @@
 package Array;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Stack;
-
 /**
  * x & ~x = 0;
  * x & ~0 = x;
@@ -15,11 +11,8 @@ public class singleNumber {
 
     }
     public static int singleNumber(int[] nums) {
-        int a = 0,b = 0;
-        for (int i:nums){
-            b = (b ^ i) & ~a;
-            a = (a ^ i) & ~b;
-        }
-        return b;
+        int ans = 0;
+        for (int num : nums) ans ^= num;
+        return ans;
     }
 }
