@@ -9,6 +9,7 @@ public class hammingDistance {
 //            count++;
 //        }
 //        return count;
+
         return Integer.bitCount(x ^ y);
     }
 }
