@@ -33,6 +33,7 @@ public class reconstructQueue {
         //因此K值即为需要插入的位置
         for (int[] i : people) {
             list.add(i[1], i);
+            
         }
         return list.toArray(new int[list.size()][]);
     }
