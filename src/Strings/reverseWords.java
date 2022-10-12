@@ -10,14 +10,6 @@ public class reverseWords {
     }
 
     public static String reverseWords(String s) {
-//        String[] strings = s.trim().split(" ");
-//        ArrayList<String> list = new ArrayList<>();
-//        for (int i = strings.length-1; i>=0; i--) {
-//            if (strings[i].length()>0)
-//                list.add(strings[i]);
-//
-//        }
-//        return String.join(" ",list);
         String[] words = s.trim().split(" +");
         Collections.reverse(Arrays.asList(words));
         return String.join(" ", words);

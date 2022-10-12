@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="fix:reformat code">
+    <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add:some questions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/searchInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/searchInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GreedyAlo/canJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GreedyAlo/canJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/reverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/reverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/getIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/GetIntersectionNode.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -159,14 +159,14 @@
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HC497/IdeaProjects/JavaDemo/LeetCodeQuestion",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HC497/IdeaProjects/JavaDemo/LeetCodeQuestion&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Interview" />
@@ -456,6 +456,8 @@
       <workItem from="1662521872072" duration="2812000" />
       <workItem from="1662538819278" duration="5379000" />
       <workItem from="1662600187799" duration="841000" />
+      <workItem from="1665300621809" duration="2250000" />
+      <workItem from="1665560996583" duration="1539000" />
     </task>
     <task id="LOCAL-00023" summary="addition">
       <created>1624978793164</created>
