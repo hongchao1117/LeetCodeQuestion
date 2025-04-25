@@ -3,7 +3,7 @@ package Stack;
 import java.util.Stack;
 
 public class MinStack {
-    Stack<Integer> stack ;
+    Stack<Integer> stack;
     int min = Integer.MAX_VALUE;
 
     public MinStack() {
@@ -11,7 +11,7 @@ public class MinStack {
     }
 
     public void push(int x) {
-        if (min>=x){
+        if (min >= x) {
             stack.push(min);
             min = x;
         }
@@ -19,7 +19,7 @@ public class MinStack {
     }
 
     public void pop() {
-        if (stack.pop()==min)
+        if (stack.pop() == min)
             min = stack.pop();
     }
 

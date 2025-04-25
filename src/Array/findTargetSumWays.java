@@ -5,19 +5,20 @@ package Array;
  */
 public class findTargetSumWays {
     int count = 0;
-    public int findTargetSumWays(int[] nums, int S) {
-        getRes(nums, 0, 0, S);
+
+    public int findTargetSumWays(int[] nums, int target) {
+        getRes(nums, target, 0, 0);
         return count;
     }
 
-    private void getRes(int[] nums, int i, int sum, int s) {
+    public void getRes(int[] nums, int target, int i, int sum) {
         if (i == nums.length) {
-            if (sum == s) {
+            if (sum == target) {
                 count++;
-            } else {
-                getRes(nums, i + 1, sum + nums[i], s);
-                getRes(nums, i + 1, sum - nums[i], s);
             }
+        } else {
+            getRes(nums, target, i + 1, sum - nums[i]);
+            getRes(nums, target, i + 1, sum + nums[i]);
         }
     }
 }
