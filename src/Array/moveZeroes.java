@@ -2,7 +2,7 @@ package Array;
 
 public class moveZeroes {
     public void moveZeroes(int[] nums) {
-        if (nums.length == 0 || nums == null) return;
+        if (nums == null || nums.length == 0) return;
         int i = 0, j = 0;
         while (i < nums.length ){
             if(nums[i]!=0){

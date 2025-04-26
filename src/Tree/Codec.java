@@ -1,11 +1,7 @@
 package Tree;
 
-import Sort.LinkedListSorting;
-
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 /**
  * 请实现两个函数，分别用来序列化和反序列化二叉树。
@@ -42,7 +38,7 @@ public class Codec {
             list.remove(0);
             return null;
         }
-        TreeNode res = new TreeNode(Integer.valueOf(list.get(0)));
+        TreeNode res = new TreeNode(Integer.parseInt(list.get(0)));
         list.remove(0);
         res.left = getDeserRes(list);
         res.right = getDeserRes(list);

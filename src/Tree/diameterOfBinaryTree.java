@@ -13,7 +13,7 @@ public class diameterOfBinaryTree {
         if (root == null) return 0;
         int left = Math.max(0, dfs(root.left));
         int right = Math.max(0, dfs(root.right));
-        max = Math.max(max, left + right + root.val);
+        max = Math.max(max, left + right);
         return Math.max(right, left) + 1;
     }
 }
