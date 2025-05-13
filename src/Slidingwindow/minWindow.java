@@ -50,7 +50,7 @@ public class minWindow {
             if (hash[chars[i]] <= 0) count++;
             while (count == tLen && hash[chars[j]] > 0) hash[chars[j++]]--;
             if (count == tLen)
-                if (res.equals("") || res.length() > i - j + 1)
+                if (res.isEmpty() || res.length() > i - j + 1)
                     res = s.substring(j, i + 1);
         }
         return res;

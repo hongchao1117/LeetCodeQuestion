@@ -9,11 +9,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a1047b84-be20-4994-b355-afd7e12f71c1" name="string2Date" comment="add:some questions updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/findDisappearedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findDisappearedNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/moveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/moveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Codec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/diameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/diameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree/pathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/pathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findDisappearedNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findDisappearedNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findTargetSumWays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/findTargetSumWays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Array/majorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Array/majorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/pathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode题目/Tree/pathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/canAttendMeetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/canAttendMeetings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/findUnsortedSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/findUnsortedSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/sortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/sortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slidingwindow/minWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/isValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/isValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/wordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/wordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/mergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/mergeTrees.java" afterDir="false" />
     </list>
     <list id="81b353ec-1a65-4336-9293-81490fda3d21" name="Default Changelist" comment="add：fix" />
     <list id="f281669c-ba89-445b-aea9-8abf52a12038" name="String2Date" comment="" />
@@ -167,7 +174,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.canAttendMeetings.executor": "Run",
     "Application.findDisappearedNumbers.executor": "Debug",
+    "Application.findKthLargest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -193,33 +202,7 @@
       <recent name="D:\JavaProgram\LeetCodeQuestion\src\dp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.findDisappearedNumbers">
-    <configuration name="Printer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Printer" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Sort" />
-      <module name="LeetCode题目" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.canAttendMeetings">
     <configuration name="ZhihuDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.ZhihuDemo" />
       <module name="LeetCode题目" />
@@ -233,8 +216,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="canAttendMeetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.canAttendMeetings" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="findDisappearedNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.findDisappearedNumbers" />
+      <module name="LeetCode题目" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.findKthLargest" />
       <module name="LeetCode题目" />
       <extension name="coverage">
         <pattern>
@@ -261,6 +270,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.canAttendMeetings" />
+        <item itemvalue="Application.findKthLargest" />
         <item itemvalue="Application.findDisappearedNumbers" />
         <item itemvalue="Application.time_coincide" />
       </list>
@@ -489,7 +500,7 @@
       <workItem from="1666768102849" duration="3373000" />
       <workItem from="1667481712598" duration="1048000" />
       <workItem from="1744883415959" duration="2349000" />
-      <workItem from="1745304723332" duration="63214000" />
+      <workItem from="1745304723332" duration="125216000" />
     </task>
     <task id="LOCAL-00024" summary="mod:fix error">
       <created>1625064566536</created>
@@ -834,7 +845,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665563864670</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1056,8 +1067,29 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Array/findDisappearedNumbers.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/canAttendMeetings.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/canAttendMeetings.java</url>
+          <line>34</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Array/canAttendMeetings.java</url>
+          <line>36</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -23,11 +23,11 @@ public class isValid {
         char[] chars = s.toCharArray();
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < chars.length; i++) {
-            if (stack.isEmpty()){
+            if (stack.isEmpty()) {
                 stack.push(chars[i]);
-            }else if (isSym(stack.peek(),chars[i])){
+            } else if (isSym(stack.peek(), chars[i])) {
                 stack.pop();
-            }else{
+            } else {
                 stack.push(chars[i]);
             }
         }
@@ -35,6 +35,19 @@ public class isValid {
     }
 
     private boolean isSym(Character c1, char c2) {
-        return (c1=='(' && c2==')' || c1=='{' && c2=='}' || c1=='[' && c2==']');
+        return (c1 == '(' && c2 == ')' || c1 == '{' && c2 == '}' || c1 == '[' && c2 == ']');
     }
+
+    public boolean isValid1(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (isSym(stack.peek(), s.charAt(i))) {
+                stack.pop();
+            } else {
+                stack.push(s.charAt(i));
+            }
+        }
+        return stack.isEmpty();
+    }
+
 }

@@ -10,7 +10,7 @@ public class sortColors {
                 l++;
             }else if (nums[index]==1){
                 index++;
-            }else if (index<r && nums[index]==2){
+            } else if (nums[index] == 2) {
                swap(nums,index,r);
                r--;
             }

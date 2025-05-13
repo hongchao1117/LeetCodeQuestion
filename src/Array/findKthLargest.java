@@ -2,23 +2,14 @@ package Array;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.Scanner;
 
 public class findKthLargest {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int len = 0, k = 0;
-        if (in.hasNextInt()) {
-            len = in.nextInt();
+        int[] nums = new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6};
+        System.out.println(findKthLargest_quick(nums, 4));
+        for (int num : nums) {
+            System.out.print(num + ",");
         }
-        int[] nums = new int[len];
-        for (int i = 0; i < len; i++) {
-            nums[i] = in.nextInt();
-        }
-        if (in.hasNextInt()) {
-            k = in.nextInt();
-        }
-        System.out.println(findKthLargest(nums, k));
     }
 
     public static int findKthLargest(int[] nums, int k) {
@@ -38,13 +29,13 @@ public class findKthLargest {
         return queue.peek();
     }
 
-    public int findKthLargest_quick(int[] nums, int k) {
+    public static int findKthLargest_quick(int[] nums, int k) {
         k = nums.length - k;
         quickSort(nums, k, 0, nums.length - 1);
         return nums[k];
     }
 
-    private void quickSort(int[] nums, int k, int left, int right) {
+    private static void quickSort(int[] nums, int k, int left, int right) {
         if (left >= right) return;
         int l = left, r = right;
         int base = nums[left];
@@ -100,7 +91,7 @@ public class findKthLargest {
         }
     }
 
-    public void swap(int[] a, int i, int j) {
+    public static void swap(int[] a, int i, int j) {
         int temp = a[i];
         a[i] = a[j];
         a[j] = temp;

@@ -1,7 +1,6 @@
 package Array;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
@@ -19,6 +18,11 @@ public class canAttendMeetings {
         return true;
     }
 
+    public static void main(String[] args) {
+        int[][] intervals = new int[][]{{0, 30}, {5, 10}, {15, 20}};
+        System.out.println(minMeetingRooms(intervals));
+    }
+
     /**
      * 给你一个会议时间安排的数组 intervals ，每个会议时间都会包括开始和结束的时间 intervals[i] = [starti, endi] ，
      * 为避免会议冲突，同时要考虑充分利用会议室资源，请你计算至少需要多少间会议室，才能满足这些会议安排。
@@ -26,14 +30,9 @@ public class canAttendMeetings {
      * @param intervals
      * @return
      */
-    public int minMeetingRooms(int[][] intervals) {
+    public static int minMeetingRooms(int[][] intervals) {
         if (intervals == null || intervals.length == 0) return 0;
-        PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o1 - o2;
-            }
-        });
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
         Arrays.sort(intervals, (o1, o2) -> o1[0] - o2[0]);
         queue.add(intervals[0][1]);
         for (int i = 1; i < intervals.length; i++) {

@@ -3,7 +3,7 @@ package Array;
 
 public class findUnsortedSubarray {
     public int findUnsortedSubarray(int[] nums) {
-        if (nums.length < 2 || nums == null) {
+        if (nums.length < 2) {
             return 0;
         }
         int l = 0, r = 0;

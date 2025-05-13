@@ -17,7 +17,7 @@ public class wordBreak {
     }
 
     public static boolean wordBreak(String s, List<String> wordDict) {
-//        //可以类比背包问题
+        //可以类比背包问题
         int len = s.length();
         boolean[] flag = new boolean[len + 1];
         flag[0] = true;
@@ -47,7 +47,7 @@ public class wordBreak {
         }
         for (String word : wordDict) {
             if (index + word.length() <= s.length()
-                    && s.substring(index, index + word.length()).equals(word)) {
+                    && s.startsWith(word, index)) {
                 cur.add(word);
                 getRes(index + word.length(), s, wordDict, cur);
                 cur.remove(cur.size() - 1);
